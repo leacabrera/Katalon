@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PagoSinOrden - Ingresar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2aba909c-c7ab-449a-9d8b-f58ea0383cda</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>598ebbcd-91c2-4de4-a633-f4db406fb571</id>
+      <masked>false</masked>
+      <name>Proveedor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85da69e7-c586-45ec-aa26-86b41712ce88</id>
+      <masked>false</masked>
+      <name>FechaValor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74da5629-2556-49fa-bc19-a4bf344c0a7c</id>
+      <masked>false</masked>
+      <name>Moneda</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ddf238c-4d25-4d39-aed9-1501ae98d762</id>
+      <masked>false</masked>
+      <name>EsquemaDistribucion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38621f64-a390-46db-a051-93a9cfd50e98</id>
+      <masked>false</masked>
+      <name>Concepto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86930d49-b444-4955-b9ed-7c0d40400372</id>
+      <masked>false</masked>
+      <name>Importe</name>
+   </variable>
+</TestCaseEntity>

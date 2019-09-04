@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrdenFondos,Firefox 68.0,,,2019-08-08 15:13:25,2019-08-08 15:13:49,"24,430s",PASSED
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-08 15:13:25,2019-08-08 15:13:31,"6,452s",PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-08 15:13:25,2019-08-08 15:13:28,"2,865s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",Firefox 68.0,,,2019-08-08 15:13:28,2019-08-08 15:13:28,"0,751s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",Firefox 68.0,,,2019-08-08 15:13:28,2019-08-08 15:13:29,"0,105s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), findTestData(""Login/DatosLogin"").getValue(2, 1))",Firefox 68.0,,,2019-08-08 15:13:29,2019-08-08 15:13:29,"0,070s",PASSED
+"click(findTestObject(""LoginManual/LOGIN""))",Firefox 68.0,,,2019-08-08 15:13:29,2019-08-08 15:13:29,"0,242s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:29,2019-08-08 15:13:31,"2,018s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-08 15:13:31,2019-08-08 15:13:31,"0,228s",PASSED
+,,,,,,,
+Test Cases/OredenFondos,Firefox 68.0,,,2019-08-08 15:13:31,2019-08-08 15:13:48,"17,136s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:31,2019-08-08 15:13:33,"2,004s",PASSED
+"click(findTestObject(""Menu/a_Tesoreria""))",Firefox 68.0,,,2019-08-08 15:13:33,2019-08-08 15:13:33,"0,245s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:33,2019-08-08 15:13:35,"2,003s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/a_Pago Cobro""))",Firefox 68.0,,,2019-08-08 15:13:35,2019-08-08 15:13:36,"0,244s",PASSED
+waitForPageLoad(10),Firefox 68.0,,,2019-08-08 15:13:36,2019-08-08 15:13:36,"0,035s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/a_rdenes""))",Firefox 68.0,,,2019-08-08 15:13:36,2019-08-08 15:13:36,"0,270s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:36,2019-08-08 15:13:38,"2,002s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/nueva orden""))",Firefox 68.0,,,2019-08-08 15:13:38,2019-08-08 15:13:38,"0,283s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:38,2019-08-08 15:13:40,"2,002s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos""))",Firefox 68.0,,,2019-08-08 15:13:40,2019-08-08 15:13:40,"0,232s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:40,2019-08-08 15:13:42,"2,000s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/CONTINUAR""))",Firefox 68.0,,,2019-08-08 15:13:42,2019-08-08 15:13:43,"0,236s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:43,2019-08-08 15:13:45,"2,002s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_cliente""), ""UY RUT 123123123098 - Jardín Los nenitos"")",Firefox 68.0,,,2019-08-08 15:13:45,2019-08-08 15:13:45,"0,094s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_Cuenta comercial""), ""LNUYU - LOS NENITOS UYU"")",Firefox 68.0,,,2019-08-08 15:13:45,2019-08-08 15:13:45,"0,050s",PASSED
+delay(2),Firefox 68.0,,,2019-08-08 15:13:45,2019-08-08 15:13:47,"2,000s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_Esquema de distribucin""), ""Congelados"")",Firefox 68.0,,,2019-08-08 15:13:47,2019-08-08 15:13:47,"0,050s",PASSED
+delay(1),Firefox 68.0,,,2019-08-08 15:13:47,2019-08-08 15:13:48,"1,004s",PASSED
+"selectOptionByValue(findTestObject(""Tesoreria/Orden Fondos/ConceptoIngreso""), ""500"", false)",Firefox 68.0,,,2019-08-08 15:13:48,2019-08-08 15:13:48,"0,285s",PASSED

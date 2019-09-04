@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Tesoreria/PagoSinOrden - Ingresar","testCaseId":"Test Cases/Tesoreria/PagoSinOrden - Ingresar","bindedValues":{"Moneda":"\u0027840\u0027","Importe":"\u0027100\u0027","EsquemaDistribucion":"\u0027CONGELADOS\u0027","Proveedor":"\u0027UY RUT 159789654123 - La Alborada librería y papelería\u0027","Concepto":"\u00272\u0027"}}

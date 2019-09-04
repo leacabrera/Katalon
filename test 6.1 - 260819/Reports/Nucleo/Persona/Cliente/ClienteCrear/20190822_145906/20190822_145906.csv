@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ClienteCrear,Firefox 68.0,,,2019-08-22 14:59:07,2019-08-22 14:59:19,"11,244s",FAILED
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-22 14:59:08,2019-08-22 14:59:14,"6,546s",PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-22 14:59:08,2019-08-22 14:59:11,"2,853s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",Firefox 68.0,,,2019-08-22 14:59:11,2019-08-22 14:59:11,"0,799s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",Firefox 68.0,,,2019-08-22 14:59:11,2019-08-22 14:59:12,"0,096s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), findTestData(""Login/DatosLogin"").getValue(2, 1))",Firefox 68.0,,,2019-08-22 14:59:12,2019-08-22 14:59:12,"0,063s",PASSED
+"click(findTestObject(""LoginManual/LOGIN""))",Firefox 68.0,,,2019-08-22 14:59:12,2019-08-22 14:59:12,"0,247s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 14:59:12,2019-08-22 14:59:14,"2,029s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-22 14:59:14,2019-08-22 14:59:14,"0,253s",PASSED
+,,,,,,,
+Test Cases/Nucleo/Persona/Cliente/ClienteCrear,Firefox 68.0,,,2019-08-22 14:59:14,2019-08-22 14:59:19,"4,582s",FAILED
+delay(2),Firefox 68.0,,,2019-08-22 14:59:14,2019-08-22 14:59:16,"2,004s",PASSED
+"click(findTestObject(""Menu/a_Configuracin""))",Firefox 68.0,,,2019-08-22 14:59:16,2019-08-22 14:59:17,"0,329s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 14:59:17,2019-08-22 14:59:19,"2,002s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/a_Personas""))",Firefox 68.0,,,2019-08-22 14:59:19,2019-08-22 14:59:19,"0,077s",FAILED

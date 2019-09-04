@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ClienteEliminar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02283a6e-41ca-465e-b384-36ebf9ad1654</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Clientes/Cliente').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>01835d6b-219a-4eea-8138-d9d9fe414f0e</id>
+      <masked>false</masked>
+      <name>CodigoCli</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OredenFondos - Ingresar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2ae515f-4eae-4ce3-8a40-a725d4e11f9a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a337eb02-f125-43d7-ba56-e25870875f62</id>
+      <masked>false</masked>
+      <name>Cliente</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1629e26-f1c2-44df-8872-2b635dea771a</id>
+      <masked>false</masked>
+      <name>CuentaComercial</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54bbdb7f-1ecc-4488-abe3-910276df5492</id>
+      <masked>false</masked>
+      <name>EsqDistribucion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>776c2c8d-a54f-468c-88e9-a6c0c3b1b58f</id>
+      <masked>false</masked>
+      <name>Importe</name>
+   </variable>
+</TestCaseEntity>

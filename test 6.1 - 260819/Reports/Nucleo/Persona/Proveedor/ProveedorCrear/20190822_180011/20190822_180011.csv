@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ProveedorCrear,Firefox 68.0,,,2019-08-22 18:00:12,2019-08-22 18:00:56,"44,016s",PASSED
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-22 18:00:12,2019-08-22 18:00:18,"6,559s",PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-22 18:00:12,2019-08-22 18:00:15,"2,856s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",Firefox 68.0,,,2019-08-22 18:00:15,2019-08-22 18:00:16,"0,841s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",Firefox 68.0,,,2019-08-22 18:00:16,2019-08-22 18:00:16,"0,108s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), findTestData(""Login/DatosLogin"").getValue(2, 1))",Firefox 68.0,,,2019-08-22 18:00:16,2019-08-22 18:00:16,"0,070s",PASSED
+"click(findTestObject(""LoginManual/LOGIN""))",Firefox 68.0,,,2019-08-22 18:00:16,2019-08-22 18:00:16,"0,246s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:16,2019-08-22 18:00:18,"2,012s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-22 18:00:18,2019-08-22 18:00:18,"0,225s",PASSED
+,,,,,,,
+Test Cases/Nucleo/Persona/Proveedor/ProveedorEliminar,Firefox 68.0,,,2019-08-22 18:00:18,2019-08-22 18:00:32,"13,638s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:19,2019-08-22 18:00:21,"2,004s",PASSED
+"click(findTestObject(""Menu/a_Configuracin""))",Firefox 68.0,,,2019-08-22 18:00:21,2019-08-22 18:00:21,"0,231s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:21,2019-08-22 18:00:23,"2,001s",PASSED
+"click(findTestObject(""Menu/a_Personas""))",Firefox 68.0,,,2019-08-22 18:00:23,2019-08-22 18:00:23,"0,358s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:23,2019-08-22 18:00:25,"2,001s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/Crear/a_Proveedores""))",Firefox 68.0,,,2019-08-22 18:00:25,2019-08-22 18:00:25,"0,228s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:25,2019-08-22 18:00:27,"2,003s",PASSED
+"setText(findTestObject(""Nucleo/Persona/Proveedor/Eliminar/BuscarProveedor""), CodigoProveedor)",Firefox 68.0,,,2019-08-22 18:00:27,2019-08-22 18:00:27,"0,062s",PASSED
+delay(1),Firefox 68.0,,,2019-08-22 18:00:27,2019-08-22 18:00:28,"1,002s",PASSED
+"mouseOver(findTestObject(""Nucleo/Persona/Proveedor/Eliminar/p_UY RUT 466656440123""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-22 18:00:28,2019-08-22 18:00:29,"0,147s",PASSED
+delay(1),Firefox 68.0,,,2019-08-22 18:00:29,2019-08-22 18:00:30,"1,005s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/Eliminar/BORRAR""), CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-22 18:00:30,2019-08-22 18:00:30,"0,235s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:30,2019-08-22 18:00:32,"2,002s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/Eliminar/eliminar -confirmar""), CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-22 18:00:32,2019-08-22 18:00:32,"0,248s",PASSED
+,,,,,,,
+Test Cases/Nucleo/Persona/Proveedor/ProveedorCrear,Firefox 68.0,,,2019-08-22 18:00:32,2019-08-22 18:00:56,"23,705s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:32,2019-08-22 18:00:34,"2,002s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/Crear/AgregarProveedor""))",Firefox 68.0,,,2019-08-22 18:00:34,2019-08-22 18:00:34,"0,230s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:34,2019-08-22 18:00:36,"2,002s",PASSED
+"setText(findTestObject(""Nucleo/Persona/Proveedor/Crear/PROVEEDORCODIGO""), Codigo)",Firefox 68.0,,,2019-08-22 18:00:36,2019-08-22 18:00:37,"0,043s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:37,2019-08-22 18:00:39,"2,002s",PASSED
+"setText(findTestObject(""Nucleo/Persona/Proveedor/Crear/PERSONAJURIDICANOMBRECOMERCIAL""), NombreComercial)",Firefox 68.0,,,2019-08-22 18:00:39,2019-08-22 18:00:39,"0,052s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:39,2019-08-22 18:00:41,"2,003s",PASSED
+"setText(findTestObject(""Nucleo/Persona/Proveedor/Crear/PERSONAJURIDICANOMBRELEGAL""), NombreLegal)",Firefox 68.0,,,2019-08-22 18:00:41,2019-08-22 18:00:41,"0,063s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:41,2019-08-22 18:00:43,"2,004s",PASSED
+"setText(findTestObject(""Nucleo/Persona/Proveedor/Crear/PERSONAJURIDICADOCUMENTO""), Documento)",Firefox 68.0,,,2019-08-22 18:00:43,2019-08-22 18:00:43,"0,048s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:43,2019-08-22 18:00:45,"2,003s",PASSED
+"selectOptionByValue(findTestObject(""Nucleo/Persona/Proveedor/Crear/SelectPais""), Pais, false)",Firefox 68.0,,,2019-08-22 18:00:45,2019-08-22 18:00:45,"0,049s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:45,2019-08-22 18:00:47,"2,002s",PASSED
+"selectOptionByValue(findTestObject(""Nucleo/Persona/Proveedor/Crear/selectTIPO PROVEEDOR""), Tproveedor, false)",Firefox 68.0,,,2019-08-22 18:00:47,2019-08-22 18:00:47,"0,041s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:47,2019-08-22 18:00:49,"2,002s",PASSED
+"selectOptionByValue(findTestObject(""Nucleo/Persona/Proveedor/Crear/selectRUT""), Tdocumento, false)",Firefox 68.0,,,2019-08-22 18:00:49,2019-08-22 18:00:49,"0,040s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:49,2019-08-22 18:00:51,"2,001s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/Crear/input_Persona Juridica Observaciones_W0049W0048ENTER""))",Firefox 68.0,,,2019-08-22 18:00:51,2019-08-22 18:00:51,"0,248s",PASSED
+delay(2),Firefox 68.0,,,2019-08-22 18:00:51,2019-08-22 18:00:53,"2,002s",PASSED
+"verifyTextPresent(""El proveedor Prueba katalon fue agregado"", false)",Firefox 68.0,,,2019-08-22 18:00:53,2019-08-22 18:00:56,"2,732s",PASSED

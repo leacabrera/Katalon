@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ProveedorCrear,,,,2019-08-22 11:08:28,2019-08-22 11:08:34,"5,455s",FAILED
+,,,,,,,
+Test Cases/Login,,,,2019-08-22 11:08:28,2019-08-22 11:08:32,"3,119s",FAILED
+"openBrowser("""")",,,,2019-08-22 11:08:29,2019-08-22 11:08:32,"2,897s",FAILED
+,,,,,,,
+Test Cases/Nucleo/Persona/Proveedor/ProveedorCrear,,,,2019-08-22 11:08:32,2019-08-22 11:08:34,"2,197s",FAILED
+delay(2),,,,2019-08-22 11:08:32,2019-08-22 11:08:34,"2,016s",PASSED
+"click(findTestObject(""Menu/a_Configuracin""))",,,,2019-08-22 11:08:34,2019-08-22 11:08:34,"0,026s",FAILED
