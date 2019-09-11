@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","bindedValues":{"password":"\u0027jperez\u0027","VarUrl":"\u0027http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin\u0027","username":"\u0027jperez\u0027"}}
+{"testCaseName":"Test Cases/Tesoreria/OredenFondos - Ingresar - Iteration 1","testCaseId":"Test Cases/Tesoreria/OredenFondos - Ingresar","bindedValues":{"CuentaComercial":"\u0027LNUYU - LOS NENITOS UYU\u0027","Importe":"\u0027150\u0027","Cliente":"\u0027UY RUT 123123123098 - Jardín Los nenitos\u0027","EsqDistribucion":"\u0027Congelados\u0027"}}
+{"testCaseName":"Test Cases/Tesoreria/OredenFondos - Ingresar - Iteration 2","testCaseId":"Test Cases/Tesoreria/OredenFondos - Ingresar"}
+{"testCaseName":"Test Cases/Tesoreria/OredenFondos - Ingresar - Iteration 3","testCaseId":"Test Cases/Tesoreria/OredenFondos - Ingresar"}

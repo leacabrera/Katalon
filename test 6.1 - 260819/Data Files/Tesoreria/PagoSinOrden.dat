@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>80500f56-0a83-4e18-955c-764fa5d14f04</dataFileGUID>
-   <dataSourceUrl>../PagoSinOrden.xlsx</dataSourceUrl>
+   <dataSourceUrl>\\gxcfs\k2b\AMASTERK2B\Test K2B\Automatizacion\Planilla de datos\6.1\PagoSinOrden.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

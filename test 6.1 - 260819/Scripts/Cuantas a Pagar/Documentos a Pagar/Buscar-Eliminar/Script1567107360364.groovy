@@ -24,10 +24,9 @@ WebUI.click(findTestObject('Cuentas a Pagar/a_Documentos de compra'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/input_Buscar'), (Serie - Sucursal) - 
-    Numero)
+WebUI.setText(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/input_Buscar'), WebUI.concatenate ([Serie,'-',Sucursal,'-',Numero]as String[], FailureHandling.STOP_ON_FAILURE))
 
-WebUI.delay(2)
+WebUI.waitForPageLoad(2)
 
 WebUI.mouseOver(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/span_04092019'))
 

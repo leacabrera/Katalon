@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orden Stock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e33552d-9c76-44f9-9b40-73a5efe776c1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dfd4216a-d89e-46a7-8bcb-9b584f1a10ea</id>
+      <masked>false</masked>
+      <name>Sector</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d296ff3-26a3-471c-b06a-be10f22804da</id>
+      <masked>false</masked>
+      <name>Sala</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>706ce74c-a2e6-4f55-b91e-37b6d60c0610</id>
+      <masked>false</masked>
+      <name>EsquemaDistribucion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd52e873-8d33-47a5-9a46-eca3c72764ab</id>
+      <masked>false</masked>
+      <name>Producto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e664f27-e3e5-4265-8df4-6552af9679df</id>
+      <masked>false</masked>
+      <name>Deposito</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62b1690a-4a30-4db7-a598-40419d2dbe5f</id>
+      <masked>false</masked>
+      <name>Cantidad</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3bbeea7-68ac-4b2d-89dc-89d4e0a95cb6</id>
+      <masked>false</masked>
+      <name>NOrden</name>
+   </variable>
+</TestCaseEntity>

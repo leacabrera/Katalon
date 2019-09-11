@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Nucleo/Persona/Cliente/ClienteEliminar","testCaseId":"Test Cases/Nucleo/Persona/Cliente/ClienteEliminar"}
+{"testCaseName":"Test Cases/Nucleo/Persona/Cliente/Asociado a persona/PersonaJuridica","testCaseId":"Test Cases/Nucleo/Persona/Cliente/Asociado a persona/PersonaJuridica","bindedValues":{"Codigo":"\u0027PruebaKata\u0027","AgenRet":"\u00270\u0027","TipoPersona":"\u0027J\u0027","PersJExistente":"\u0027aldo 08\u0027"}}

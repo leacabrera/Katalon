@@ -7,13 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'span_CLIENTEDOCUMENTOPAISTIPO_0001']</value>
+         <value>//span[@id = 'span_CLIENTEDOCUMENTOPAISTIPO_0001']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='span_CLIENTEDOCUMENTOPAISTIPO_0001']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

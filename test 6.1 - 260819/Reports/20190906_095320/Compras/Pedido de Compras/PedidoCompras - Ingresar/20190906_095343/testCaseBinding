@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Compras/PedidoCompras/PedidoCompra","testCaseId":"Test Cases/Compras/PedidoCompras/PedidoCompra","bindedValues":{"Moneda":"\u0027840\u0027","TerminoPago":"\u0027CONTADO\u0027","ProcesoCompra":"\u00271\u0027","Producto":"\u002711 - Hojas A4\u0027","Cantidad":"\u002750\u0027","EsquemaDistribucion":"\u002712345678910 - Congelados\u0027","TipoTRN":"\u0027Pedido de compra inicial\u0027","Precio":"\u002720\u0027"}}

@@ -25,15 +25,16 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Nucleo/Persona/Cliente/Cliente - Transaccion/a_Asociar una persona existente'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Nucleo/Persona/Cliente/Cliente - PopUp (Asociar a persona)/Page_Cliente/input_K2 BTools Generic Search Field_vK2BTOOLSGENERICSEARCHFIELD'), 
+    PersJExistente)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Nucleo/Persona/Cliente/Cliente - PopUp (Asociar a persona)/Page_Cliente/a_aldo 08'))
+
 WebUI.delay(2)
-
-WebUI.setText(findTestObject('Nucleo/Persona/Cliente/Cliente - PopUp (Asociar a persona)/BuscarPersona'), PersJExistente)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Nucleo/Persona/Cliente/Cliente - PopUp (Asociar a persona)/PersonaJ'))
-
-WebUI.delay(1)
 
 WebUI.setText(findTestObject('Nucleo/Persona/Cliente/Cliente - Transaccion/CLIENTECODIGO'), Codigo)
 

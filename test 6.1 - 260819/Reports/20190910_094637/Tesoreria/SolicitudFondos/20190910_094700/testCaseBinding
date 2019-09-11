@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Tesoreria/SolicitudFondos -Ingresar","testCaseId":"Test Cases/Tesoreria/SolicitudFondos -Ingresar","bindedValues":{"CuentaComercial":"\u0027CRFF - CUENTA A RENDIR DEL FONDO FIJO\u0027","Moneda":"\u0027840\u0027","Persona":"\u0027UY C.I. 882969-2 - Perez, Juan\u0027","Importe":"\u0027150\u0027"}}
