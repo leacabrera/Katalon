@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Interactiva_vDELETE_0001</name>
+   <name>img_PC_Eliminar</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
-=======
-   <elementGuidId>397dedfa-b834-4cbb-a093-afcea2bee9d2</elementGuidId>
->>>>>>> origin/Maria
+   <elementGuidId>caf9e1a0-1934-4dc4-8e3f-a967a6bbdcbd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,11 +21,18 @@
       <value>/k2bv61-sqlserver/static/Resources/K2BOrionERP/K2BActionDelete.png</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gx-evt</name>
+      <type>Main</type>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vDELETE_0001</value>
+      <value>W0055ELIMINAR</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,6 +51,34 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 41,'W0055',false,'',0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gx-evt-control</name>
+      <type>Main</type>
+      <value>ELIMINAR</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gx-context</name>
+      <type>Main</type>
+      <value>[&quot;W0055&quot;,false]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>data-original-title</name>
       <type>Main</type>
       <value>Eliminar</value>
@@ -57,60 +88,56 @@
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>tooltip277861</value>
-=======
-      <value>tooltip539810</value>
->>>>>>> origin/Maria
+      <value>tooltip780088</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vDELETE_0001&quot;)</value>
+      <value>id(&quot;W0055ELIMINAR&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@id='vDELETE_0001']</value>
+      <value>//img[@id='W0055ELIMINAR']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='GridContainerRow_0001']/td[20]/a/img</value>
+      <value>//table[@id='W0055K2BTABLEACTIONSRIGHTCONTAINER']/tbody/tr/td[3]/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interactiva'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pedidos de compra'])[2]/following::img[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compra'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pedido de compra'])[2]/following::img[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No hay resultados'])[1]/preceding::img[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- - - -'])[1]/preceding::img[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::img[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contado'])[1]/preceding::img[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +151,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[20]/a/img</value>
+      <value>//td[2]/table/tbody/tr/td[3]/img</value>
    </webElementXpaths>
 </WebElementEntity>

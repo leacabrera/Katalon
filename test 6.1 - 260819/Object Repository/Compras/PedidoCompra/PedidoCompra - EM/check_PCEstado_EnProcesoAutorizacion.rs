@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Interactiva_vDELETE_0001</name>
+   <name>check_PCEstado_EnProcesoAutorizacion</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
-=======
-   <elementGuidId>397dedfa-b834-4cbb-a093-afcea2bee9d2</elementGuidId>
->>>>>>> origin/Maria
+   <elementGuidId>9143a8e5-4929-45cf-b00f-c7d78093e21d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;span_W0055W0057W0012PEDIDOCMPESTADO&quot;)[count(. | //*[@id = 'span_W0055W0057W0012PEDIDOCMPESTADO' and (text() = 'En proceso de autorización' or . = 'En proceso de autorización')]) = count(//*[@id = 'span_W0055W0057W0012PEDIDOCMPESTADO' and (text() = 'En proceso de autorización' or . = 'En proceso de autorización')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,115 +17,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/k2bv61-sqlserver/static/Resources/K2BOrionERP/K2BActionDelete.png</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>vDELETE_0001</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>Eliminar</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Image_Action</value>
+      <value>ReadonlyAttribute_Trn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-title</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Eliminar</value>
+      <value>span_W0055W0057W0012PEDIDOCMPESTADO</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>text</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>tooltip277861</value>
-=======
-      <value>tooltip539810</value>
->>>>>>> origin/Maria
+      <value>En proceso de autorización</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vDELETE_0001&quot;)</value>
+      <value>id(&quot;span_W0055W0057W0012PEDIDOCMPESTADO&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@id='vDELETE_0001']</value>
+      <value>//span[@id='span_W0055W0057W0012PEDIDOCMPESTADO']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='GridContainerRow_0001']/td[20]/a/img</value>
+      <value>//table[@id='W0055W0057W0012TABLE1']/tbody/tr[3]/td[6]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interactiva'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compra'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contado'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No hay resultados'])[1]/preceding::img[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha valor'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::img[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Eliminar']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha valor'])[2]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[20]/a/img</value>
+      <value>//td[6]/span</value>
    </webElementXpaths>
 </WebElementEntity>

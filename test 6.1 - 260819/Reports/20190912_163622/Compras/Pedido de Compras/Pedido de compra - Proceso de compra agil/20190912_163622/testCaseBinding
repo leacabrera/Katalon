@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Compras/PedidoCompras/Pedido Compra - Proceso compra agil","testCaseId":"Test Cases/Compras/PedidoCompras/Pedido Compra - Proceso compra agil","bindedValues":{"Moneda":"840","TerminoPago":"CONTADO","ProcesoCompra":"COMPRA AGIL         ","Producto":"11 - Hojas A4","Cantidad":"50","EsquemaDistribucion":"12345678910 - Congelados","TipoTrn":"Pedido de compra sin autorización","Precio":"20"}}

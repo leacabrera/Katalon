@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Interactiva_vDELETE_0001</name>
+   <name>select_ProcesoCompraAgil_TipoTrnAdjudicacion</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
-=======
-   <elementGuidId>397dedfa-b834-4cbb-a093-afcea2bee9d2</elementGuidId>
->>>>>>> origin/Maria
+   <elementGuidId>96f7b2f5-cb4a-460e-9a2e-a89bc344f970</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,115 +11,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/k2bv61-sqlserver/static/Resources/K2BOrionERP/K2BActionDelete.png</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vDELETE_0001</value>
+      <value>vADJUDICACIONCMPTIPOTRNCMPCODIGO</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Eliminar</value>
+      <value>vADJUDICACIONCMPTIPOTRNCMPCODIGO</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Image_Action</value>
+      <value>Attribute_Trn form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-title</name>
+      <name>data-gxoch0</name>
       <type>Main</type>
-      <value>Eliminar</value>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>onfocus</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>tooltip277861</value>
-=======
-      <value>tooltip539810</value>
->>>>>>> origin/Maria
+      <value>gx.evt.onfocus(this, 214,'',false,'0001',0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,214);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Adjudicacion con sobreadjudicaciónAdjudicación de compra</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vDELETE_0001&quot;)</value>
+      <value>id(&quot;vADJUDICACIONCMPTIPOTRNCMPCODIGO&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@id='vDELETE_0001']</value>
+      <value>//select[@id='vADJUDICACIONCMPTIPOTRNCMPCODIGO']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='GridContainerRow_0001']/td[20]/a/img</value>
+      <value>//div[@id='TABLE_CONTAINER_ADJUDICACIONCMPTIPOTRNCMPCODIGO']/div[2]/div/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interactiva'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacción'])[2]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compra'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacción'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No hay resultados'])[1]/preceding::img[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::img[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Eliminar']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[2]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[20]/a/img</value>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Interactiva_vDELETE_0001</name>
+   <name>input_AdjGenerarEventos_CONFIRMAR</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
-=======
-   <elementGuidId>397dedfa-b834-4cbb-a093-afcea2bee9d2</elementGuidId>
->>>>>>> origin/Maria
+   <elementGuidId>429d6165-dc1b-4736-b25d-6992ff3aea5c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,115 +11,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>/k2bv61-sqlserver/static/Resources/K2BOrionERP/K2BActionDelete.png</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>CONFIRMAR</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vDELETE_0001</value>
+      <value>CONFIRMAR</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Eliminar</value>
+      <value>Confirmar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Image_Action</value>
+      <value>btn btn-default K2BToolsButton_MainAction</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-title</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>Eliminar</value>
+      <value>if( gx.evt.jsEvent(this)) {gx.evt.execEvt('',false,'E\'E_CONFIRMAR\'.',this);} else return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>onfocus</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>tooltip277861</value>
-=======
-      <value>tooltip539810</value>
->>>>>>> origin/Maria
+      <value>gx.evt.onfocus(this, 88,'',false,'',0)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vDELETE_0001&quot;)</value>
+      <value>id(&quot;CONFIRMAR&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@id='vDELETE_0001']</value>
+      <value>//input[@id='CONFIRMAR']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='GridContainerRow_0001']/td[20]/a/img</value>
+      <value>//table[@id='ACTIONSCONTAINERTABLERIGHT_ACTIONS2']/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interactiva'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacción a generar'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compra'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacción a generar'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No hay resultados'])[1]/preceding::img[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Líneas'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::img[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Eliminar']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Línea'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[20]/a/img</value>
+      <value>//div/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>
