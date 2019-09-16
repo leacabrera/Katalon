@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrdenFondos,Firefox 68.0,,,2019-08-08 12:18:33,2019-08-08 12:18:37,"4,044s",FAILED
+,,,,,,,
+Test Cases/OredenFondos,Firefox 68.0,,,2019-08-08 12:18:34,2019-08-08 12:18:37,"3,249s",FAILED
+"callTestCase(findTestCase(""Login""), [""VarUrl"":"""", ""username"":""
+"", ""password"":""
+""], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-08 12:18:34,2019-08-08 12:18:37,"3,077s",FAILED

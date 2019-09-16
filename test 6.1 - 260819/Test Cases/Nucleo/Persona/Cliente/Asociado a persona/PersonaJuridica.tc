@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonaJuridica</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf58bcf5-11f7-4b95-a17b-070c6779a37b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42714928-0f4b-4434-ba47-27def3c0288f</id>
+      <masked>false</masked>
+      <name>Codigo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41b7182b-2545-456a-87bf-2990b327a195</id>
+      <masked>false</masked>
+      <name>TipoPersona</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3a2894f-f8f9-4863-a5ea-0fdd9d3e4ddd</id>
+      <masked>false</masked>
+      <name>AgenRet</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03483f62-7be8-485c-b152-9fd7353ea30a</id>
+      <masked>false</masked>
+      <name>PersJExistente</name>
+   </variable>
+</TestCaseEntity>

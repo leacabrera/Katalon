@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProveedorNew" time="65" tests="1" failures="1" errors="0">
+   <testsuite name="ProveedorNew" tests="1" failures="1" errors="0" time="65" timestamp="2019-08-12 11:55:54" hostname="LCabrera - k2bp697.Artech.local" id="Test Suites/ProveedorNew">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_115553"/>
+         <property name="logFiles" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_115553\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_115553\\1565621820121.png, C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_115553\\1565621820176.png"/>
+         <property name="hostName" value="LCabrera - k2bp697.Artech.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="172.16.6.153"/>
+         <property name="sessionId" value="85c29f43-6ac6-46f4-8801-34b599b4be3c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-08-12 11:55:54 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-08-12 11:55:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-08-12 11:55:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-08-12 11:55:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-12 11:55:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-12 11:55:58 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Login/DatosLogin").getValue(3, 1)): Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-12 11:55:58 - [MESSAGE][PASSED] - Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-12 11:55:58 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/USERNAME"), findTestData("Login/DatosLogin").getValue(1, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-12 11:55:58 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-12 11:55:58 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/PASSWORD"), findTestData("Login/DatosLogin").getValue(2, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-12 11:55:59 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-12 11:55:59 - [TEST_STEP][PASSED] - click(findTestObject("LoginManual/LOGIN")): Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-12 11:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-12 11:55:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Menu/clockMENU")): Object: 'Object Repository/Menu/clockMENU' is clicked on
+
+2019-08-12 11:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/clockMENU' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProveedorNew" classname="Test Cases/ProveedorNew" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ProveedorNew FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-08-12 11:56:01 - [TEST_CASE][FAILED] - Test Cases/ProveedorNew: Test Cases/ProveedorNew FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-08-12 11:56:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:03 - [TEST_STEP][PASSED] - click(findTestObject("Menu/a_Configuracin")): Object: 'Object Repository/Menu/a_Configuracin' is clicked on
+
+2019-08-12 11:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/a_Configuracin' is clicked on
+
+2019-08-12 11:56:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/a_Personas")): Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Personas' is clicked on
+
+2019-08-12 11:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Personas' is clicked on
+
+2019-08-12 11:56:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/a_Proveedores")): Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Proveedores' is clicked on
+
+2019-08-12 11:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Proveedores' is clicked on
+
+2019-08-12 11:56:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/AgregarProveedor")): Object: 'Object Repository/Nucleo/Persona/Proveedor/AgregarProveedor' is clicked on
+
+2019-08-12 11:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/AgregarProveedor' is clicked on
+
+2019-08-12 11:56:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:12 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PROVEEDORCODIGO"), Codigo): Text 'PruebKat' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PROVEEDORCODIGO'
+
+2019-08-12 11:56:12 - [MESSAGE][PASSED] - Text 'PruebKat' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PROVEEDORCODIGO'
+
+2019-08-12 11:56:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRECOMERCIAL"), NombreComercial): Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRECOMERCIAL'
+
+2019-08-12 11:56:14 - [MESSAGE][PASSED] - Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRECOMERCIAL'
+
+2019-08-12 11:56:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:16 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRELEGAL"), NombreLegal): Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRELEGAL'
+
+2019-08-12 11:56:16 - [MESSAGE][PASSED] - Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRELEGAL'
+
+2019-08-12 11:56:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:18 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PERSONAJURIDICADOCUMENTO"), Documento): Text '466656440123' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICADOCUMENTO'
+
+2019-08-12 11:56:18 - [MESSAGE][PASSED] - Text '466656440123' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICADOCUMENTO'
+
+2019-08-12 11:56:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Nucleo/Persona/Proveedor/SelectPais"), Pais, false): All options with value 'UY' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/SelectPais' 
+
+2019-08-12 11:56:21 - [MESSAGE][PASSED] - All options with value 'UY' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/SelectPais' 
+
+2019-08-12 11:56:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Nucleo/Persona/Proveedor/selectTIPO PROVEEDOR"), Tproveedor, false): All options with value '001' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectTIPO PROVEEDOR' 
+
+2019-08-12 11:56:23 - [MESSAGE][PASSED] - All options with value '001' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectTIPO PROVEEDOR' 
+
+2019-08-12 11:56:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Nucleo/Persona/Proveedor/selectRUT"), Tdocumento, false): All options with value 'RUC' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectRUT' 
+
+2019-08-12 11:56:25 - [MESSAGE][PASSED] - All options with value 'RUC' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectRUT' 
+
+2019-08-12 11:56:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/input_Persona Juridica Observaciones_W0049W0048ENTER")): Object: 'Object Repository/Nucleo/Persona/Proveedor/input_Persona Juridica Observaciones_W0049W0048ENTER' is clicked on
+
+2019-08-12 11:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/input_Persona Juridica Observaciones_W0049W0048ENTER' is clicked on
+
+2019-08-12 11:56:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:56:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:56:29 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado"), "El proveedor  Preuba katalon  fue agregado"): Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2019-08-12 11:57:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-12 11:57:00 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+)
+[[ATTACHMENT|C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_115553\\1565621820121.png]]
+
+2019-08-12 11:57:00 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_115553\\1565621820176.png]]]]></system-out>
+         <system-err><![CDATA[2019-08-12 11:56:01 - [TEST_CASE][FAILED] - Test Cases/ProveedorNew: Test Cases/ProveedorNew FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-12 11:55:54 - [TEST_SUITE][FAILED] - ProveedorNew: Test Cases/ProveedorNew FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-08-12 11:55:54 - [TEST_SUITE][FAILED] - ProveedorNew: Test Cases/ProveedorNew FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at ProveedorNew.run(ProveedorNew:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565621753819.run(TempTestSuite1565621753819.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nucleo/Persona/Proveedor/MensajeEl proveedor  fue agregado' located by 'By.xpath: //div[(text() = 'El proveedor      Preuba katalon                                               fue agregado' or . = 'El proveedor      Preuba katalon                                               fue agregado')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

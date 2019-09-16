@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrdenFondos" time="24" tests="1" failures="1" errors="0">
+   <testsuite name="OrdenFondos" tests="1" failures="1" errors="0" time="24" timestamp="2019-08-08 15:07:50" hostname="LCabrera - k2bp697.Artech.local" id="Test Suites/OrdenFondos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_150749"/>
+         <property name="logFiles" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_150749\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_150749\\1565287694182.png"/>
+         <property name="hostName" value="LCabrera - k2bp697.Artech.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="172.16.6.153"/>
+         <property name="sessionId" value="56d12469-4c5e-4cee-9d5c-2f47122be4ee"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-08-08 15:07:50 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-08-08 15:07:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-08-08 15:07:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-08-08 15:07:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-08 15:07:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-08 15:07:53 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Login/DatosLogin").getValue(3, 1)): Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-08 15:07:54 - [MESSAGE][PASSED] - Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-08 15:07:54 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/USERNAME"), findTestData("Login/DatosLogin").getValue(1, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-08 15:07:54 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-08 15:07:54 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/PASSWORD"), findTestData("Login/DatosLogin").getValue(2, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-08 15:07:54 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-08 15:07:54 - [TEST_STEP][PASSED] - click(findTestObject("LoginManual/LOGIN")): Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-08 15:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-08 15:07:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:07:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Menu/clockMENU")): Object: 'Object Repository/Menu/clockMENU' is clicked on
+
+2019-08-08 15:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/clockMENU' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OredenFondos" classname="Test Cases/OredenFondos" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-08-08 15:07:57 - [TEST_CASE][FAILED] - Test Cases/OredenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+
+
+2019-08-08 15:07:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:07:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Menu/a_Tesoreria")): Object: 'Object Repository/Menu/a_Tesoreria' is clicked on
+
+2019-08-08 15:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/a_Tesoreria' is clicked on
+
+2019-08-08 15:07:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:08:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/a_Pago Cobro")): Object: 'Object Repository/Tesoreria/Orden Fondos/a_Pago Cobro' is clicked on
+
+2019-08-08 15:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/a_Pago Cobro' is clicked on
+
+2019-08-08 15:08:01 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-08-08 15:08:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-08-08 15:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/a_rdenes")): Object: 'Object Repository/Tesoreria/Orden Fondos/a_rdenes' is clicked on
+
+2019-08-08 15:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/a_rdenes' is clicked on
+
+2019-08-08 15:08:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:08:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/nueva orden")): Object: 'Object Repository/Tesoreria/Orden Fondos/nueva orden' is clicked on
+
+2019-08-08 15:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/nueva orden' is clicked on
+
+2019-08-08 15:08:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:08:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:08:06 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos")): Object: 'Object Repository/Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos' is clicked on
+
+2019-08-08 15:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos' is clicked on
+
+2019-08-08 15:08:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:08:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/CONTINUAR")): Object: 'Object Repository/Tesoreria/Orden Fondos/CONTINUAR' is clicked on
+
+2019-08-08 15:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/CONTINUAR' is clicked on
+
+2019-08-08 15:08:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:08:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_cliente"), "UY RUT 123123123098 - Jardín Los nenitos"): Text 'UY RUT 123123123098 - Jardín Los nenitos' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_cliente'
+
+2019-08-08 15:08:11 - [MESSAGE][PASSED] - Text 'UY RUT 123123123098 - Jardín Los nenitos' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_cliente'
+
+2019-08-08 15:08:11 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Cuenta comercial"), "LNUYU - LOS NENITOS UYU"): Text 'LNUYU - LOS NENITOS UYU' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Cuenta comercial'
+
+2019-08-08 15:08:11 - [MESSAGE][PASSED] - Text 'LNUYU - LOS NENITOS UYU' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Cuenta comercial'
+
+2019-08-08 15:08:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 15:08:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 15:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Esquema de distribucin"), "Congelados"): Text 'Congelados' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Esquema de distribucin'
+
+2019-08-08 15:08:13 - [MESSAGE][PASSED] - Text 'Congelados' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Esquema de distribucin'
+
+2019-08-08 15:08:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-08 15:08:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-08 15:08:14 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("Tesoreria/Orden Fondos/ConceptoIngreso"), 2, STOP_ON_FAILURE): Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+)
+
+2019-08-08 15:08:14 - [MESSAGE][FAILED] - Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_150749\\1565287694182.png]]]]></system-out>
+         <system-err><![CDATA[2019-08-08 15:07:57 - [TEST_CASE][FAILED] - Test Cases/OredenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-08 15:07:50 - [TEST_SUITE][FAILED] - OrdenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-08-08 15:07:50 - [TEST_SUITE][FAILED] - OrdenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565287669685.run(TempTestSuite1565287669685.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1])
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.checkSelectIndex(WebUiCommonHelper.java:205)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByIndex(WebUiCommonHelper.java:233)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1084)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

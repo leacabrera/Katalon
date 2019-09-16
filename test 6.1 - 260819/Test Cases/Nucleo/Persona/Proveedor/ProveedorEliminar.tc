@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ProveedorEliminar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7933eef-fc93-42e2-9244-b82e68d236ec</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Proveedores/ProveedorCrear').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2e65de5b-e951-4d1c-991d-81cd8e4a91f0</id>
+      <masked>false</masked>
+      <name>CodigoProveedor</name>
+   </variable>
+</TestCaseEntity>

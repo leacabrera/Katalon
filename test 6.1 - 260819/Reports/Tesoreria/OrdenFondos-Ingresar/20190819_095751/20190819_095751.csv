@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrdenFondos-Ingresar,,,,2019-08-19 09:57:53,2019-08-19 09:58:00,"7,543s",FAILED
+,,,,,,,
+Test Cases/Login,,,,2019-08-19 09:57:53,2019-08-19 09:57:58,"5,184s",FAILED
+"openBrowser("""")",,,,2019-08-19 09:57:53,2019-08-19 09:57:58,"4,865s",FAILED
+,,,,,,,
+Test Cases/Tesoreria/OredenFondos - Ingresar,,,,2019-08-19 09:57:58,2019-08-19 09:58:00,"2,209s",FAILED
+delay(2),,,,2019-08-19 09:57:58,2019-08-19 09:58:00,"2,019s",PASSED
+"click(findTestObject(""Menu/a_Tesoreria""))",,,,2019-08-19 09:58:00,2019-08-19 09:58:00,"0,028s",FAILED

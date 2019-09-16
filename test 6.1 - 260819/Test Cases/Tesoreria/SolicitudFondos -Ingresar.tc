@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SolicitudFondos -Ingresar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>164762ec-06bb-41de-a11a-befcf55ba074</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>151f2355-70a2-4b48-a73f-4cc08affcaa5</id>
+      <masked>false</masked>
+      <name>Moneda</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8fc815fa-de6c-4d98-ba3b-e8788a984b7b</id>
+      <masked>false</masked>
+      <name>Importe</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2cc363af-cb6b-496c-9b67-ae752cc084bc</id>
+      <masked>false</masked>
+      <name>Persona</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88602055-821d-49f0-9d85-667e9c8104d3</id>
+      <masked>false</masked>
+      <name>CuentaComercial</name>
+   </variable>
+</TestCaseEntity>

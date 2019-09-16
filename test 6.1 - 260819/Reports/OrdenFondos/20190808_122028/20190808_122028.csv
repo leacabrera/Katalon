@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrdenFondos,Firefox 68.0,,,2019-08-08 12:20:29,2019-08-08 12:21:06,"36,486s",FAILED
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-08 12:20:29,2019-08-08 12:20:32,"3,078s",FAILED
+"openBrowser("""")",Firefox 68.0,,,2019-08-08 12:20:29,2019-08-08 12:20:32,"2,821s",PASSED
+navigateToUrl(VarUrl),Firefox 68.0,,,2019-08-08 12:20:32,2019-08-08 12:20:32,"0,051s",FAILED
+,,,,,,,
+Test Cases/OredenFondos,Firefox 68.0,,,2019-08-08 12:20:32,2019-08-08 12:21:05,"32,699s",FAILED
+delay(2),Firefox 68.0,,,2019-08-08 12:20:32,2019-08-08 12:20:34,"2,020s",PASSED
+"click(findTestObject(""Menu/a_Tesoreria""))",Firefox 68.0,,,2019-08-08 12:20:34,2019-08-08 12:21:05,"30,571s",FAILED

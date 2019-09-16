@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrdenFondos-Ingresar,IE 11,,,2019-08-19 10:08:25,2019-08-19 10:08:34,"8,991s",FAILED
+,,,,,,,
+Test Cases/Login,IE 11,,,2019-08-19 10:08:25,2019-08-19 10:08:31,"6,686s",FAILED
+"openBrowser("""")",IE 11,,,2019-08-19 10:08:25,2019-08-19 10:08:29,"3,849s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",IE 11,,,2019-08-19 10:08:29,2019-08-19 10:08:30,"1,708s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",IE 11,,,2019-08-19 10:08:30,2019-08-19 10:08:31,"0,945s",FAILED
+,,,,,,,
+Test Cases/Tesoreria/OredenFondos - Ingresar,IE 11,,,2019-08-19 10:08:31,2019-08-19 10:08:34,"2,178s",FAILED
+delay(2),IE 11,,,2019-08-19 10:08:31,2019-08-19 10:08:33,"2,010s",PASSED
+"click(findTestObject(""Menu/a_Tesoreria""))",IE 11,,,2019-08-19 10:08:33,2019-08-19 10:08:34,"0,039s",FAILED

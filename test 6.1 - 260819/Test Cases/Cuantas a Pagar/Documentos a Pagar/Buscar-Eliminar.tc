@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Buscar-Eliminar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12de57a5-c273-449c-9988-494e0cd8553e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3f669b90-85ea-45c9-b884-d3e1a905658b</id>
+      <masked>false</masked>
+      <name>Serie</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76126698-d808-4e08-86d9-877d775bfc20</id>
+      <masked>false</masked>
+      <name>Sucursal</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1092726b-4fd6-4600-abb8-90cd77747395</id>
+      <masked>false</masked>
+      <name>Numero</name>
+   </variable>
+</TestCaseEntity>

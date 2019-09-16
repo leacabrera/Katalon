@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Tesoreria/OrdenFondos - Confirmar - Iteration 1","testCaseId":"Test Cases/Tesoreria/OrdenFondos - Confirmar","bindedValues":{"CuentaComercial":"\u0027LNUYU - LOS NENITOS UYU\u0027","Importe":"\u0027150\u0027","EsquemaDistribucion":"\u002712345678910 - Congelados\u0027","Cliente":"\u0027UY RUT 123123123098 - Jardín Los nenitos\u0027"}}
+{"testCaseName":"Test Cases/Tesoreria/OrdenFondos - Confirmar - Iteration 2","testCaseId":"Test Cases/Tesoreria/OrdenFondos - Confirmar"}
+{"testCaseName":"Test Cases/Tesoreria/OrdenFondos - Confirmar - Iteration 3","testCaseId":"Test Cases/Tesoreria/OrdenFondos - Confirmar"}
