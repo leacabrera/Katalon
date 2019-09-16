@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProveedorNew" time="33" tests="2" failures="0" errors="0">
+   <testsuite name="ProveedorNew" tests="2" failures="0" errors="0" time="33" timestamp="2019-08-12 11:43:43" hostname="LCabrera - k2bp697.Artech.local" id="Test Suites/ProveedorNew">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_114342"/>
+         <property name="logFiles" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\ProveedorNew\\20190812_114342\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LCabrera - k2bp697.Artech.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="172.16.6.153"/>
+         <property name="sessionId" value="b3323495-53b5-44ff-89f9-48b64d28edd3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-08-12 11:43:43 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-08-12 11:43:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-08-12 11:43:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-08-12 11:43:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-12 11:43:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-12 11:43:46 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Login/DatosLogin").getValue(3, 1)): Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-12 11:43:47 - [MESSAGE][PASSED] - Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-12 11:43:47 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/USERNAME"), findTestData("Login/DatosLogin").getValue(1, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-12 11:43:47 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-12 11:43:47 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/PASSWORD"), findTestData("Login/DatosLogin").getValue(2, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-12 11:43:47 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-12 11:43:47 - [TEST_STEP][PASSED] - click(findTestObject("LoginManual/LOGIN")): Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-12 11:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-12 11:43:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:43:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Menu/clockMENU")): Object: 'Object Repository/Menu/clockMENU' is clicked on
+
+2019-08-12 11:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/clockMENU' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProveedorNew" classname="Test Cases/ProveedorNew" status="PASSED">
+         <system-out><![CDATA[2019-08-12 11:43:50 - [TEST_CASE][PASSED] - Test Cases/ProveedorNew: Test Cases/ProveedorNew
+
+2019-08-12 11:43:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:43:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Menu/a_Configuracin")): Object: 'Object Repository/Menu/a_Configuracin' is clicked on
+
+2019-08-12 11:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/a_Configuracin' is clicked on
+
+2019-08-12 11:43:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:43:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/a_Personas")): Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Personas' is clicked on
+
+2019-08-12 11:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Personas' is clicked on
+
+2019-08-12 11:43:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:43:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/a_Proveedores")): Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Proveedores' is clicked on
+
+2019-08-12 11:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/a_Proveedores' is clicked on
+
+2019-08-12 11:43:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:43:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/AgregarProveedor")): Object: 'Object Repository/Nucleo/Persona/Proveedor/AgregarProveedor' is clicked on
+
+2019-08-12 11:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/AgregarProveedor' is clicked on
+
+2019-08-12 11:43:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:01 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PROVEEDORCODIGO"), Codigo): Text 'PruebKat' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PROVEEDORCODIGO'
+
+2019-08-12 11:44:01 - [MESSAGE][PASSED] - Text 'PruebKat' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PROVEEDORCODIGO'
+
+2019-08-12 11:44:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:03 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRECOMERCIAL"), NombreComercial): Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRECOMERCIAL'
+
+2019-08-12 11:44:03 - [MESSAGE][PASSED] - Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRECOMERCIAL'
+
+2019-08-12 11:44:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRELEGAL"), NombreLegal): Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRELEGAL'
+
+2019-08-12 11:44:05 - [MESSAGE][PASSED] - Text 'Preuba katalon' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICANOMBRELEGAL'
+
+2019-08-12 11:44:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:07 - [TEST_STEP][PASSED] - setText(findTestObject("Nucleo/Persona/Proveedor/PERSONAJURIDICADOCUMENTO"), Documento): Text '466656440123' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICADOCUMENTO'
+
+2019-08-12 11:44:07 - [MESSAGE][PASSED] - Text '466656440123' is set on object 'Object Repository/Nucleo/Persona/Proveedor/PERSONAJURIDICADOCUMENTO'
+
+2019-08-12 11:44:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Nucleo/Persona/Proveedor/SelectPais"), Pais, false): All options with value 'UY' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/SelectPais' 
+
+2019-08-12 11:44:10 - [MESSAGE][PASSED] - All options with value 'UY' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/SelectPais' 
+
+2019-08-12 11:44:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Nucleo/Persona/Proveedor/selectTIPO PROVEEDOR"), Tproveedor, false): All options with value '001' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectTIPO PROVEEDOR' 
+
+2019-08-12 11:44:12 - [MESSAGE][PASSED] - All options with value '001' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectTIPO PROVEEDOR' 
+
+2019-08-12 11:44:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Nucleo/Persona/Proveedor/selectRUT"), Tdocumento, false): All options with value 'RUC' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectRUT' 
+
+2019-08-12 11:44:14 - [MESSAGE][PASSED] - All options with value 'RUC' are selected in object 'Object Repository/Nucleo/Persona/Proveedor/selectRUT' 
+
+2019-08-12 11:44:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 11:44:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 11:44:16 - [TEST_STEP][PASSED] - click(findTestObject("Nucleo/Persona/Proveedor/input_Persona Juridica Observaciones_W0049W0048ENTER")): Object: 'Object Repository/Nucleo/Persona/Proveedor/input_Persona Juridica Observaciones_W0049W0048ENTER' is clicked on
+
+2019-08-12 11:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Nucleo/Persona/Proveedor/input_Persona Juridica Observaciones_W0049W0048ENTER' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-12 11:43:43 - [TEST_SUITE][PASSED] - ProveedorNew: Test Cases/ProveedorNew]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

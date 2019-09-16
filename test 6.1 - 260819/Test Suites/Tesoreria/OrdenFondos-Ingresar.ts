@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>OrdenFondos-Ingresar</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>4c1fc63d-13da-45a1-96c4-baf78779e4db</testSuiteGuid>
+   <testCaseLink>
+      <guid>31324d7a-df9d-4512-91aa-2298e73094f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5ba98c02-5fe2-4559-bf7f-b81b989a25f7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/DatosLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5ba98c02-5fe2-4559-bf7f-b81b989a25f7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VarUrl</value>
+         <variableId>6fd98cec-b398-4ca3-8e94-a564b39db358</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5ba98c02-5fe2-4559-bf7f-b81b989a25f7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c0a2a3d8-2c81-46b3-a89e-52a67c48c0ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5ba98c02-5fe2-4559-bf7f-b81b989a25f7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c9be2680-1c6f-4945-9af8-95580567d998</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a00cf5c4-ba9c-4210-a291-de9fb9bca75e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tesoreria/OredenFondos - Ingresar</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5efa9772-121d-469b-b0d7-52a1f44cb04f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Tesoreria/OrdenFondosCrear</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cliente</value>
+         <variableId>a337eb02-f125-43d7-ba56-e25870875f62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CuentaComercial</value>
+         <variableId>e1629e26-f1c2-44df-8872-2b635dea771a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Esquema</value>
+         <variableId>54bbdb7f-1ecc-4488-abe3-910276df5492</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Importe</value>
+         <variableId>776c2c8d-a54f-468c-88e9-a6c0c3b1b58f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

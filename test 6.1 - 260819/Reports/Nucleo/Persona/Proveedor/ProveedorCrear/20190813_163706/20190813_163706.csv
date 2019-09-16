@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ProveedorCrear,Firefox 68.0,,,2019-08-13 16:37:07,2019-08-13 16:37:23,"16,105s",ERROR
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-13 16:37:07,2019-08-13 16:37:14,"6,628s",PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-13 16:37:07,2019-08-13 16:37:10,"2,919s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",Firefox 68.0,,,2019-08-13 16:37:10,2019-08-13 16:37:11,"0,810s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",Firefox 68.0,,,2019-08-13 16:37:11,2019-08-13 16:37:11,"0,101s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), findTestData(""Login/DatosLogin"").getValue(2, 1))",Firefox 68.0,,,2019-08-13 16:37:11,2019-08-13 16:37:11,"0,072s",PASSED
+"click(findTestObject(""LoginManual/LOGIN""))",Firefox 68.0,,,2019-08-13 16:37:11,2019-08-13 16:37:11,"0,248s",PASSED
+delay(2),Firefox 68.0,,,2019-08-13 16:37:11,2019-08-13 16:37:13,"2,013s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-13 16:37:13,2019-08-13 16:37:14,"0,244s",PASSED
+,,,,,,,
+Test Cases/Nucleo/Persona/Proveedor/ProveedorCrear,Firefox 68.0,,,2019-08-13 16:37:14,2019-08-13 16:37:23,"9,330s",ERROR
+delay(2),Firefox 68.0,,,2019-08-13 16:37:14,2019-08-13 16:37:16,"2,004s",PASSED
+"click(findTestObject(""Menu/a_Configuracin""))",Firefox 68.0,,,2019-08-13 16:37:16,2019-08-13 16:37:16,"0,229s",PASSED
+delay(2),Firefox 68.0,,,2019-08-13 16:37:16,2019-08-13 16:37:18,"2,003s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/a_Personas""))",Firefox 68.0,,,2019-08-13 16:37:18,2019-08-13 16:37:18,"0,297s",PASSED
+delay(2),Firefox 68.0,,,2019-08-13 16:37:18,2019-08-13 16:37:20,"2,001s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/a_Proveedores""))",Firefox 68.0,,,2019-08-13 16:37:20,2019-08-13 16:37:21,"0,228s",PASSED
+delay(2),Firefox 68.0,,,2019-08-13 16:37:21,2019-08-13 16:37:23,"2,003s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/BuscarProveedor""))",Firefox 68.0,,,2019-08-13 16:37:23,2019-08-13 16:37:23,"0,255s",PASSED
+"setText(findTestObject(""Nucleo/Persona/Proveedor/BuscarProveedor""), NombreComercial)",Firefox 68.0,,,2019-08-13 16:37:23,2019-08-13 16:37:23,"0,055s",PASSED
+"IF(verifyElementNotPresent(findTestObject(""Object Repository/Nucleo/Persona/Proveedor/PrimerObjetodelWW"")) == true, { -> ... })",Firefox 68.0,,,2019-08-13 16:37:23,2019-08-13 16:37:23,"0,002s",PASSED

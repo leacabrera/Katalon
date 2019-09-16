@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PruebaObtenerOC2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cf6ba3e-5a45-4dda-b78f-f32e110e8ac3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa985fbc-789d-4311-81e6-1a2979651c6f</id>
+      <masked>false</masked>
+      <name>returnString</name>
+   </variable>
+</TestCaseEntity>

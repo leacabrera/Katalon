@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrdenFondos-Ingresar,Firefox 68.0,,,2019-08-19 10:08:45,2019-08-19 10:09:15,"29,588s",PASSED
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-19 10:08:45,2019-08-19 10:08:52,"6,601s",PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-19 10:08:45,2019-08-19 10:08:48,"2,927s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",Firefox 68.0,,,2019-08-19 10:08:48,2019-08-19 10:08:49,"0,806s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",Firefox 68.0,,,2019-08-19 10:08:49,2019-08-19 10:08:49,"0,101s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), findTestData(""Login/DatosLogin"").getValue(2, 1))",Firefox 68.0,,,2019-08-19 10:08:49,2019-08-19 10:08:49,"0,069s",PASSED
+"click(findTestObject(""LoginManual/LOGIN""))",Firefox 68.0,,,2019-08-19 10:08:49,2019-08-19 10:08:50,"0,245s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:08:50,2019-08-19 10:08:52,"2,015s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-19 10:08:52,2019-08-19 10:08:52,"0,232s",PASSED
+,,,,,,,
+Test Cases/Tesoreria/OredenFondos - Ingresar,Firefox 68.0,,,2019-08-19 10:08:52,2019-08-19 10:09:15,"22,848s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:08:52,2019-08-19 10:08:54,"2,002s",PASSED
+"click(findTestObject(""Menu/a_Tesoreria""))",Firefox 68.0,,,2019-08-19 10:08:54,2019-08-19 10:08:54,"0,348s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:08:54,2019-08-19 10:08:56,"2,001s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/a_Pago Cobro""))",Firefox 68.0,,,2019-08-19 10:08:56,2019-08-19 10:08:56,"0,242s",PASSED
+waitForPageLoad(10),Firefox 68.0,,,2019-08-19 10:08:56,2019-08-19 10:08:57,"0,033s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/a_rdenes""))",Firefox 68.0,,,2019-08-19 10:08:57,2019-08-19 10:08:57,"0,251s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:08:57,2019-08-19 10:08:59,"2,002s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/nueva orden""))",Firefox 68.0,,,2019-08-19 10:08:59,2019-08-19 10:08:59,"0,276s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:08:59,2019-08-19 10:09:01,"2,003s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos""))",Firefox 68.0,,,2019-08-19 10:09:01,2019-08-19 10:09:01,"0,245s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:09:01,2019-08-19 10:09:03,"2,002s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/CONTINUAR""))",Firefox 68.0,,,2019-08-19 10:09:03,2019-08-19 10:09:04,"0,244s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:09:04,2019-08-19 10:09:06,"2,004s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_cliente""), Cliente)",Firefox 68.0,,,2019-08-19 10:09:06,2019-08-19 10:09:06,"0,089s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_Cuenta comercial""), CuentaComercial)",Firefox 68.0,,,2019-08-19 10:09:06,2019-08-19 10:09:06,"0,061s",PASSED
+delay(2),Firefox 68.0,,,2019-08-19 10:09:06,2019-08-19 10:09:08,"2,001s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_Esquema de distribucin""), EsqDistribucion)",Firefox 68.0,,,2019-08-19 10:09:08,2019-08-19 10:09:08,"0,039s",PASSED
+delay(1),Firefox 68.0,,,2019-08-19 10:09:08,2019-08-19 10:09:09,"1,003s",PASSED
+"selectOptionByValue(findTestObject(""Tesoreria/Orden Fondos/ConceptoIngreso""), ""500"", false)",Firefox 68.0,,,2019-08-19 10:09:09,2019-08-19 10:09:09,"0,317s",PASSED
+delay(1),Firefox 68.0,,,2019-08-19 10:09:09,2019-08-19 10:09:10,"1,002s",PASSED
+"setText(findTestObject(""Tesoreria/Orden Fondos/input_Importe""), Importe)",Firefox 68.0,,,2019-08-19 10:09:10,2019-08-19 10:09:10,"0,045s",PASSED
+delay(1),Firefox 68.0,,,2019-08-19 10:09:10,2019-08-19 10:09:11,"1,002s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/ConfirmarOF""), CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-19 10:09:11,2019-08-19 10:09:11,"0,240s",PASSED
+delay(3),Firefox 68.0,,,2019-08-19 10:09:11,2019-08-19 10:09:14,"3,002s",PASSED
+"click(findTestObject(""Tesoreria/Orden Fondos/CONFIRMAR(ProcAUT)""))",Firefox 68.0,,,2019-08-19 10:09:14,2019-08-19 10:09:15,"0,241s",PASSED

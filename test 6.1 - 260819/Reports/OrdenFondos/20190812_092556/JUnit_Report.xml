@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrdenFondos" time="30" tests="2" failures="0" errors="0">
+   <testsuite name="OrdenFondos" tests="2" failures="0" errors="0" time="30" timestamp="2019-08-12 09:25:57" hostname="LCabrera - k2bp697.Artech.local" id="Test Suites/OrdenFondos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190812_092556"/>
+         <property name="logFiles" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190812_092556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LCabrera - k2bp697.Artech.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="172.16.6.153"/>
+         <property name="sessionId" value="f89ca557-e795-46e0-b922-fee1fff4fe7b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-08-12 09:25:57 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-08-12 09:25:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-08-12 09:25:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-08-12 09:25:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-12 09:26:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-12 09:26:04 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Login/DatosLogin").getValue(3, 1)): Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-12 09:26:05 - [MESSAGE][PASSED] - Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-12 09:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/USERNAME"), findTestData("Login/DatosLogin").getValue(1, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-12 09:26:05 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-12 09:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/PASSWORD"), findTestData("Login/DatosLogin").getValue(2, 1)): Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-12 09:26:05 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-12 09:26:05 - [TEST_STEP][PASSED] - click(findTestObject("LoginManual/LOGIN")): Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-12 09:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-12 09:26:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Menu/clockMENU")): Object: 'Object Repository/Menu/clockMENU' is clicked on
+
+2019-08-12 09:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/clockMENU' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OredenFondos" classname="Test Cases/OredenFondos" status="PASSED">
+         <system-out><![CDATA[2019-08-12 09:26:08 - [TEST_CASE][PASSED] - Test Cases/OredenFondos: Test Cases/OredenFondos
+
+2019-08-12 09:26:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Menu/a_Tesoreria")): Object: 'Object Repository/Menu/a_Tesoreria' is clicked on
+
+2019-08-12 09:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/a_Tesoreria' is clicked on
+
+2019-08-12 09:26:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/a_Pago Cobro")): Object: 'Object Repository/Tesoreria/Orden Fondos/a_Pago Cobro' is clicked on
+
+2019-08-12 09:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/a_Pago Cobro' is clicked on
+
+2019-08-12 09:26:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-08-12 09:26:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-08-12 09:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/a_rdenes")): Object: 'Object Repository/Tesoreria/Orden Fondos/a_rdenes' is clicked on
+
+2019-08-12 09:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/a_rdenes' is clicked on
+
+2019-08-12 09:26:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/nueva orden")): Object: 'Object Repository/Tesoreria/Orden Fondos/nueva orden' is clicked on
+
+2019-08-12 09:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/nueva orden' is clicked on
+
+2019-08-12 09:26:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos")): Object: 'Object Repository/Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos' is clicked on
+
+2019-08-12 09:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos' is clicked on
+
+2019-08-12 09:26:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/CONTINUAR")): Object: 'Object Repository/Tesoreria/Orden Fondos/CONTINUAR' is clicked on
+
+2019-08-12 09:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/CONTINUAR' is clicked on
+
+2019-08-12 09:26:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_cliente"), "UY RUT 123123123098 - Jardín Los nenitos"): Text 'UY RUT 123123123098 - Jardín Los nenitos' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_cliente'
+
+2019-08-12 09:26:21 - [MESSAGE][PASSED] - Text 'UY RUT 123123123098 - Jardín Los nenitos' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_cliente'
+
+2019-08-12 09:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Cuenta comercial"), "LNUYU - LOS NENITOS UYU"): Text 'LNUYU - LOS NENITOS UYU' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Cuenta comercial'
+
+2019-08-12 09:26:21 - [MESSAGE][PASSED] - Text 'LNUYU - LOS NENITOS UYU' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Cuenta comercial'
+
+2019-08-12 09:26:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-12 09:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-12 09:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Esquema de distribucin"), "Congelados"): Text 'Congelados' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Esquema de distribucin'
+
+2019-08-12 09:26:23 - [MESSAGE][PASSED] - Text 'Congelados' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Esquema de distribucin'
+
+2019-08-12 09:26:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-12 09:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-12 09:26:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Tesoreria/Orden Fondos/ConceptoIngreso"), "500", false): All options with value '500' are selected in object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso' 
+
+2019-08-12 09:26:25 - [MESSAGE][PASSED] - All options with value '500' are selected in object 'Object Repository/Tesoreria/Orden Fondos/ConceptoIngreso' 
+
+2019-08-12 09:26:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-12 09:26:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-12 09:26:26 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Importe"), "100"): Text '100' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Importe'
+
+2019-08-12 09:26:26 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Importe'
+
+2019-08-12 09:26:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-12 09:26:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-12 09:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/ConfirmarOF"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Tesoreria/Orden Fondos/ConfirmarOF' is clicked on
+
+2019-08-12 09:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/ConfirmarOF' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-12 09:25:57 - [TEST_SUITE][PASSED] - OrdenFondos: Test Cases/OredenFondos]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

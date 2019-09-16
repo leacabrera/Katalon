@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ProveedorNew,Firefox 68.0,,,2019-08-12 10:45:41,2019-08-12 10:45:58,"16,733s",PASSED
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-12 10:45:41,2019-08-12 10:45:48,"6,609s",PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-12 10:45:41,2019-08-12 10:45:44,"2,905s",PASSED
+"navigateToUrl(findTestData(""Login/DatosLogin"").getValue(3, 1))",Firefox 68.0,,,2019-08-12 10:45:44,2019-08-12 10:45:45,"0,823s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), findTestData(""Login/DatosLogin"").getValue(1, 1))",Firefox 68.0,,,2019-08-12 10:45:45,2019-08-12 10:45:45,"0,100s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), findTestData(""Login/DatosLogin"").getValue(2, 1))",Firefox 68.0,,,2019-08-12 10:45:45,2019-08-12 10:45:45,"0,070s",PASSED
+"click(findTestObject(""LoginManual/LOGIN""))",Firefox 68.0,,,2019-08-12 10:45:45,2019-08-12 10:45:46,"0,253s",PASSED
+delay(2),Firefox 68.0,,,2019-08-12 10:45:46,2019-08-12 10:45:48,"2,014s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-12 10:45:48,2019-08-12 10:45:48,"0,228s",PASSED
+,,,,,,,
+Test Cases/ProveedorNew,Firefox 68.0,,,2019-08-12 10:45:48,2019-08-12 10:45:57,"9,260s",PASSED
+delay(2),Firefox 68.0,,,2019-08-12 10:45:48,2019-08-12 10:45:50,"2,003s",PASSED
+"click(findTestObject(""Menu/a_Configuracin""))",Firefox 68.0,,,2019-08-12 10:45:50,2019-08-12 10:45:50,"0,314s",PASSED
+delay(2),Firefox 68.0,,,2019-08-12 10:45:50,2019-08-12 10:45:52,"2,001s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/a_Personas""))",Firefox 68.0,,,2019-08-12 10:45:52,2019-08-12 10:45:53,"0,359s",PASSED
+delay(2),Firefox 68.0,,,2019-08-12 10:45:53,2019-08-12 10:45:55,"2,003s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/a_Proveedores""))",Firefox 68.0,,,2019-08-12 10:45:55,2019-08-12 10:45:55,"0,230s",PASSED
+delay(2),Firefox 68.0,,,2019-08-12 10:45:55,2019-08-12 10:45:57,"2,004s",PASSED
+"click(findTestObject(""Nucleo/Persona/Proveedor/AgregarProveedor""))",Firefox 68.0,,,2019-08-12 10:45:57,2019-08-12 10:45:57,"0,238s",PASSED

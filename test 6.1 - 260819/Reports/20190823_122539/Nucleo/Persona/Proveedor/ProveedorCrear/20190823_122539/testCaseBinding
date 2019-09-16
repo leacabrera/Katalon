@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Nucleo/Persona/Proveedor/ProveedorEliminar","testCaseId":"Test Cases/Nucleo/Persona/Proveedor/ProveedorEliminar","bindedValues":{"CodigoProveedor":"\u0027PruebKat\u0027"}}
+{"testCaseName":"Test Cases/Nucleo/Persona/Proveedor/ProveedorCrear","testCaseId":"Test Cases/Nucleo/Persona/Proveedor/ProveedorCrear","bindedValues":{"NombreComercial":"\u0027Prueba katalon\u0027","Codigo":"\u0027PruebKat\u0027","Tdocumento":"\u0027RUC\u0027","Tproveedor":"\u0027001\u0027","NombreLegal":"\u0027Prueba katalon\u0027","Documento":"\u0027466656440123\u0027","Pais":"\u0027UY\u0027"}}

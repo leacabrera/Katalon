@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Firefox 68.0,,,2019-08-08 12:32:08,2019-08-08 12:32:19,"11,091s",INCOMPLETE
+,,,,,,,
+Test Cases/Login,Firefox 68.0,,,2019-08-08 12:32:08,2019-08-08 12:32:19,"10,958s",FAILED
+"openBrowser("""")",Firefox 68.0,,,2019-08-08 12:32:08,2019-08-08 12:32:11,"2,846s",PASSED
+navigateToUrl(VarUrl),Firefox 68.0,,,2019-08-08 12:32:11,2019-08-08 12:32:11,"0,452s",PASSED
+"setText(findTestObject(""LoginManual/USERNAME""), username)",Firefox 68.0,,,2019-08-08 12:32:11,2019-08-08 12:32:11,"0,089s",PASSED
+"setText(findTestObject(""LoginManual/PASSWORD""), password)",Firefox 68.0,,,2019-08-08 12:32:11,2019-08-08 12:32:11,"0,070s",PASSED
+"click(findTestObject(""Menu/clockMENU""))",Firefox 68.0,,,2019-08-08 12:32:11,2019-08-08 12:32:19,"7,316s",FAILED

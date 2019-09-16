@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrdenFondos" time="23" tests="1" failures="1" errors="0">
+   <testsuite name="OrdenFondos" tests="1" failures="1" errors="0" time="23" timestamp="2019-08-08 12:36:41" hostname="LCabrera - k2bp697.Artech.local" id="Test Suites/OrdenFondos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_123640"/>
+         <property name="logFiles" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_123640\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_123640\\1565278624337.png"/>
+         <property name="hostName" value="LCabrera - k2bp697.Artech.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="172.16.6.153"/>
+         <property name="sessionId" value="c220642f-1b44-40a8-a972-241c443a8abe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-08-08 12:36:41 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-08-08 12:36:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-08-08 12:36:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-08-08 12:36:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-08 12:36:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-08 12:36:44 - [TEST_STEP][PASSED] - navigateToUrl(VarUrl): Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-08 12:36:44 - [MESSAGE][PASSED] - Navigate to 'http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin' successfully
+
+2019-08-08 12:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/USERNAME"), username): Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-08 12:36:44 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/USERNAME'
+
+2019-08-08 12:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("LoginManual/PASSWORD"), password): Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-08 12:36:44 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/LoginManual/PASSWORD'
+
+2019-08-08 12:36:44 - [TEST_STEP][PASSED] - click(findTestObject("LoginManual/LOGIN")): Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-08 12:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginManual/LOGIN' is clicked on
+
+2019-08-08 12:36:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:36:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Menu/clockMENU")): Object: 'Object Repository/Menu/clockMENU' is clicked on
+
+2019-08-08 12:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/clockMENU' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OredenFondos" classname="Test Cases/OredenFondos" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-08-08 12:36:47 - [TEST_CASE][FAILED] - Test Cases/OredenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+
+
+2019-08-08 12:36:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:36:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Menu/a_Tesoreria")): Object: 'Object Repository/Menu/a_Tesoreria' is clicked on
+
+2019-08-08 12:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/a_Tesoreria' is clicked on
+
+2019-08-08 12:36:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:36:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/a_Pago Cobro")): Object: 'Object Repository/Tesoreria/Orden Fondos/a_Pago Cobro' is clicked on
+
+2019-08-08 12:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/a_Pago Cobro' is clicked on
+
+2019-08-08 12:36:52 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-08-08 12:36:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-08-08 12:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/a_rdenes")): Object: 'Object Repository/Tesoreria/Orden Fondos/a_rdenes' is clicked on
+
+2019-08-08 12:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/a_rdenes' is clicked on
+
+2019-08-08 12:36:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:36:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/nueva orden")): Object: 'Object Repository/Tesoreria/Orden Fondos/nueva orden' is clicked on
+
+2019-08-08 12:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/nueva orden' is clicked on
+
+2019-08-08 12:36:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:36:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos")): Object: 'Object Repository/Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos' is clicked on
+
+2019-08-08 12:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/Orden de reserva ingreso con conceptos' is clicked on
+
+2019-08-08 12:36:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:36:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Tesoreria/Orden Fondos/CONTINUAR")): Object: 'Object Repository/Tesoreria/Orden Fondos/CONTINUAR' is clicked on
+
+2019-08-08 12:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Tesoreria/Orden Fondos/CONTINUAR' is clicked on
+
+2019-08-08 12:36:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:37:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:37:01 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_cliente"), "UY RUT 123123123098 - Jardín Los nenitos"): Text 'UY RUT 123123123098 - Jardín Los nenitos' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_cliente'
+
+2019-08-08 12:37:01 - [MESSAGE][PASSED] - Text 'UY RUT 123123123098 - Jardín Los nenitos' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_cliente'
+
+2019-08-08 12:37:01 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Cuenta comercial"), "LNUYU - LOS NENITOS UYU"): Text 'LNUYU - LOS NENITOS UYU' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Cuenta comercial'
+
+2019-08-08 12:37:01 - [MESSAGE][PASSED] - Text 'LNUYU - LOS NENITOS UYU' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Cuenta comercial'
+
+2019-08-08 12:37:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-08 12:37:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-08 12:37:03 - [TEST_STEP][PASSED] - setText(findTestObject("Tesoreria/Orden Fondos/input_Esquema de distribucin"), "Congelados"): Text 'Congelados' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Esquema de distribucin'
+
+2019-08-08 12:37:03 - [MESSAGE][PASSED] - Text 'Congelados' is set on object 'Object Repository/Tesoreria/Orden Fondos/input_Esquema de distribucin'
+
+2019-08-08 12:37:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-08 12:37:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-08 12:37:04 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera"), "Ingresos por alquiler de manteleria", false): Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+)
+
+2019-08-08 12:37:04 - [MESSAGE][FAILED] - Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\lcabrera\\Katalon Studio\\test 6.1\\Reports\\OrdenFondos\\20190808_123640\\1565278624337.png]]]]></system-out>
+         <system-err><![CDATA[2019-08-08 12:36:47 - [TEST_CASE][FAILED] - Test Cases/OredenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-08 12:36:41 - [TEST_SUITE][FAILED] - OrdenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-08-08 12:36:41 - [TEST_SUITE][FAILED] - OrdenFondos: Test Cases/OredenFondos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Ingresos por alquiler de manteleria' of object 'Object Repository/Tesoreria/Orden Fondos/select_SeleccionaIngresos por alquiler de mantelera' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at OredenFondos.run(OredenFondos:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565278600091.run(TempTestSuite1565278600091.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ingresos por alquiler de manteleria
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'K2BP697', ip: '172.16.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:265)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1565182572051.run(Script1565182572051.groovy:52)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

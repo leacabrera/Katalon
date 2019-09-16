@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login"}
+{"testCaseName":"Test Cases/Compras/Orden de Compras/OrdenCompraCrear","testCaseId":"Test Cases/Compras/Orden de Compras/OrdenCompraCrear","bindedValues":{"Moneda":"\u0027840\u0027","Producto":"\u002711 - Hojas A4\u0027","Cantidad":"\u002710\u0027","EsquemaDistribucion":"\u002712345678910 - Congelados\u0027","Proveedor":"\u002723115945671 - La Alborada librería y papelería%$\u0026\u003c\u0027","CA":"\u00271\u0027","Precio":"\u002720\u0027"}}
