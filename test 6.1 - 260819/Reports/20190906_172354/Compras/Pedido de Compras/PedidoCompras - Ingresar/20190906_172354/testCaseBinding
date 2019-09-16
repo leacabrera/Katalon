@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","bindedValues":{"password":"jperez","VarUrl":"http://test3.k2b.local:8080/k2bv61-sqlserver/servlet/com.k2b.hk2blogin","username":"jperez"}}
+{"testCaseName":"Test Cases/Compras/PedidoCompras/PedidoCompra","testCaseId":"Test Cases/Compras/PedidoCompras/PedidoCompra","bindedValues":{"Moneda":"840","TerminoPago":"CONTADO","ProcesoCompra":"1","Producto":"11 - Hojas A4","Cantidad":"50","EsquemaDistribucion":"12345678910 - Congelados","TipoTRN":"Pedido de compra inicial","Precio":"20"}}
+{"testCaseName":"Test Cases/Compras/PedidoCompras/PedidoCompra - Confirmar","testCaseId":"Test Cases/Compras/PedidoCompras/PedidoCompra - Confirmar"}

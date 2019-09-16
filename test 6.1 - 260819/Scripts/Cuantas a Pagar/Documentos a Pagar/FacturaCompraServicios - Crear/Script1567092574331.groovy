@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+<<<<<<< HEAD
 WebUI.delay(2)
+=======
+WebUI.delay(1)
+>>>>>>> origin/Maria
 
 WebUI.click(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/input_INSERT'))
 

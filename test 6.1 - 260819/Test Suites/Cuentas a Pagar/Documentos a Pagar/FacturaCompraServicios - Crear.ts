@@ -51,6 +51,7 @@
       <variableLink>
          <testDataLinkId>86f85cfc-7db5-45bb-b1d6-bbba47b0aa05</testDataLinkId>
          <type>DATA_COLUMN</type>
+<<<<<<< HEAD
          <value>Serie</value>
          <variableId>3f669b90-85ea-45c9-b884-d3e1a905658b</variableId>
       </variableLink>
@@ -65,6 +66,10 @@
          <type>DATA_COLUMN</type>
          <value>Numero</value>
          <variableId>1092726b-4fd6-4600-abb8-90cd77747395</variableId>
+=======
+         <value>Numero</value>
+         <variableId>3f669b90-85ea-45c9-b884-d3e1a905658b</variableId>
+>>>>>>> origin/Maria
       </variableLink>
    </testCaseLink>
    <testCaseLink>

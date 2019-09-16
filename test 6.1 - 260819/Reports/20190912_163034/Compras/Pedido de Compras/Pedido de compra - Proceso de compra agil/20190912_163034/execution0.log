@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641526</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Compras/Pedido de Compras/Pedido de compra - Proceso de compra agil</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Pedido de compra - Proceso de compra agil</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Compras/Pedido de Compras/Pedido de compra - Proceso de compra agil</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641545</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = mdecia - k2bp523.Artech.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">mdecia - k2bp523.Artech.local</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641545</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641545</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641546</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.1.2</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641878</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Compras/PedidoCompras/Pedido Compra - Proceso compra agil</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Compras/PedidoCompras/Pedido Compra - Proceso compra agil</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Compras/PedidoCompras/Pedido Compra - Proceso compra agil</property>
+  <property name="source">C:\\Maria\\Katalon\\6.1\\2\\test 6.1 - 260819\\Test Cases\\Compras\\PedidoCompras\\Pedido Compra - Proceso compra agil.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641916</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TipoTrn = Pedido de compra sin autorizaci\uFFFDn</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641917</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ProcesoCompra = COMPRA AGIL         </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641925</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Moneda = 840</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641926</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EsquemaDistribucion = 12345678910 - Congelados</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641927</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TerminoPago = CONTADO</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641927</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Producto = 11 - Hojas A4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641928</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cantidad = 50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:41</date>
+  <millis>1568316641930</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Precio = 20</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642445</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Compras/PedidoCompras/PedidoCompra\&amp;quot;), [\&amp;quot;TipoTRN\&amp;quot;:TipoTrn, \&amp;quot;ProcesoCompra\&amp;quot;:ProcesoCompra, \&amp;quot;Moneda\&amp;quot;:Moneda, \&amp;quot;EsquemaDistribucion\&amp;quot;:EsquemaDistribucion, \&amp;quot;TerminoPago\&amp;quot;:TerminoPago, ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642663</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Compras/PedidoCompras/PedidoCompra</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Compras/PedidoCompras/PedidoCompra</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Compras/PedidoCompras/PedidoCompra</property>
+  <property name="source">C:\\Maria\\Katalon\\6.1\\2\\test 6.1 - 260819\\Test Cases\\Compras\\PedidoCompras\\PedidoCompra.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642692</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TipoTRN = Pedido de compra sin autorizaci\uFFFDn</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642692</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ProcesoCompra = COMPRA AGIL         </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642692</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Moneda = 840</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642693</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EsquemaDistribucion = 12345678910 - Congelados</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642693</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TerminoPago = CONTADO</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642694</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Producto = 11 - Hojas A4</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642694</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cantidad = 50</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:42</date>
+  <millis>1568316642694</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Precio = 20</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-12T16:30:43</date>
+  <millis>1568316643130</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>

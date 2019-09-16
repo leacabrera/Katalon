@@ -15,6 +15,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
+<<<<<<< HEAD
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -31,10 +32,38 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
+=======
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ed7691d1-272a-464f-8632-07b7d8ace2d3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/DatosLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ed7691d1-272a-464f-8632-07b7d8ace2d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VarUrl</value>
+         <variableId>6fd98cec-b398-4ca3-8e94-a564b39db358</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ed7691d1-272a-464f-8632-07b7d8ace2d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c0a2a3d8-2c81-46b3-a89e-52a67c48c0ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ed7691d1-272a-464f-8632-07b7d8ace2d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+>>>>>>> origin/Maria
          <variableId>c9be2680-1c6f-4945-9af8-95580567d998</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
       <guid>717e0498-9790-4a46-be5c-72b26502c0aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -42,6 +71,15 @@
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cff5ef8c-b56b-4d24-a334-be41f1ace516</id>
+=======
+      <guid>48d6835d-0ab5-4f33-ba50-83205910edeb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Compras/PedidoCompras/PedidoCompra - Confirmar</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f5f5b336-66a9-42ce-b36a-46fc3e980e16</id>
+>>>>>>> origin/Maria
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -49,6 +87,7 @@
          <testDataId>Data Files/Compras/PedidoCompra</testDataId>
       </testDataLink>
       <variableLink>
+<<<<<<< HEAD
          <testDataLinkId>cff5ef8c-b56b-4d24-a334-be41f1ace516</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>TipoTRN</value>
@@ -95,6 +134,54 @@
          <type>DATA_COLUMN</type>
          <value>Precio</value>
          <variableId>f0c38eb5-4fee-412c-85fc-de3111f5f7f2</variableId>
+=======
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TipoTRN</value>
+         <variableId>f0724112-f1cf-4cd1-8582-1805faf552be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProcesoCompra</value>
+         <variableId>f876edd1-5515-4c20-8362-1304ee1476a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Moneda</value>
+         <variableId>607a6383-e4dd-4a2e-ac0d-5e825cf79f3b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EsquemaDistribucion</value>
+         <variableId>6d7374ae-e7b8-47f8-94a2-fc953a925a52</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TerminoPago</value>
+         <variableId>e930ec75-004e-4ca1-9330-a39111f22ec8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Producto</value>
+         <variableId>7aa44f9f-772a-40fd-a9ff-2e04f429b1b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cantidad</value>
+         <variableId>3c94ee23-439b-40bd-90b7-10e0a6f7a359</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5f5b336-66a9-42ce-b36a-46fc3e980e16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Precio</value>
+         <variableId>5a3eb5d0-59dc-46f8-a50e-0639207e5804</variableId>
+>>>>>>> origin/Maria
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

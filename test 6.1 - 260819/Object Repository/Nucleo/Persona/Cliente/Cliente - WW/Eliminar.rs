@@ -4,6 +4,7 @@
    <name>Eliminar</name>
    <tag></tag>
    <elementGuidId>933ae6aa-dadf-4d98-95a7-7a5599ed44d6</elementGuidId>
+<<<<<<< HEAD
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,13 +19,23 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
+=======
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+>>>>>>> origin/Maria
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
+<<<<<<< HEAD
       <isSelected>false</isSelected>
+=======
+      <isSelected>true</isSelected>
+>>>>>>> origin/Maria
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -45,7 +56,11 @@
       <value>Eliminar</value>
    </webElementProperties>
    <webElementProperties>
+<<<<<<< HEAD
       <isSelected>true</isSelected>
+=======
+      <isSelected>false</isSelected>
+>>>>>>> origin/Maria
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

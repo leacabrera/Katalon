@@ -6,7 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9432b490-95cf-4e46-a19e-0f26b493e215</dataFileGUID>
+<<<<<<< HEAD
    <dataSourceUrl>\\gxcfs\k2b\AMASTERK2B\Test K2B\Automatizacion\Planilla de datos\6.1\PedidoCompra.xlsx</dataSourceUrl>
+=======
+   <dataSourceUrl>../PedidoCompra.xlsx</dataSourceUrl>
+>>>>>>> origin/Maria
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

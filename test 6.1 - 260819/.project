@@ -71,7 +71,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1568212796193</id>
+=======
+			<id>1567790886701</id>
+>>>>>>> origin/Maria
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -80,7 +84,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1568212796200</id>
+=======
+			<id>1567790886716</id>
+>>>>>>> origin/Maria
 			<name></name>
 			<type>6</type>
 			<matcher>

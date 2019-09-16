@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Adjudicacion - Generar Eventos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14b59c28-233e-4319-b7e2-6c0c2670cb01</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d95ca672-7bc4-4f65-bec5-d94a0b35c60c</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

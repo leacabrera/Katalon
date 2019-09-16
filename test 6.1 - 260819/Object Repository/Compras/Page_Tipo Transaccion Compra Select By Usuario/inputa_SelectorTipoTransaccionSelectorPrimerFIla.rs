@@ -9,8 +9,17 @@
          <key>BASIC</key>
          <value>id(&quot;GridContainerRow_0001&quot;)/td[@class=&quot;gx-tab-padding-fix-1 gx-attribute K2BToolsGridColumn InvisibleInExtraSmallColumn K2BToolsLastVisibleColumn&quot;]/p[@class=&quot;form-control-static&quot;]</value>
       </entry>
+<<<<<<< HEAD
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+=======
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='GridContainerRow_0001']/td[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+>>>>>>> origin/Maria
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
