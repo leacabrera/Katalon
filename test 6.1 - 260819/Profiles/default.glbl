@@ -4,12 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-<<<<<<< HEAD
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>NOrden</name>
-   </GlobalVariableEntity>
-=======
->>>>>>> origin/Maria
 </GlobalVariableEntities>
