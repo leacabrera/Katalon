@@ -4,7 +4,17 @@
    <name>a_Almacn</name>
    <tag></tag>
    <elementGuidId>e3a9cba3-d6b1-408c-b143-d3f66416e094</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='span_CTLDESCRIPTION_MPAGE_0003']/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Almacén' or . = 'Almacén')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

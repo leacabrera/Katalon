@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger
 
 WebUI.delay(1)
 
@@ -19,7 +20,7 @@ WebUI.click(findTestObject('Menu/a_Almacn'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Alamacen/Ordenes/a_rdenes'))
+WebUI.click(findTestObject('Alamacen/a_rdenes'))
 
 WebUI.waitForPageLoad(0)
 
@@ -52,7 +53,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.setText(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/input_Producto'), Producto, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/input_Deposito'), Deposito, FailureHandling.STOP_ON_FAILURE)
 
@@ -69,4 +70,9 @@ WebUI.selectOptionByValue(findTestObject('Alamacen/Ordenes/Orden de stock - Tran
 WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/input_ENTER'))
+
+NOrden = WebUI.getAttribute(findTestObject('Alamacen/Ordenes/Orden de stock - EM/a_Numero orden'), 'text')
+
+KeywordLogger log = new KeywordLogger()
+log.logInfo(NOrden)
 
