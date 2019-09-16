@@ -10,6 +10,7 @@
       <description></description>
       <id>3f669b90-85ea-45c9-b884-d3e1a905658b</id>
       <masked>false</masked>
+<<<<<<< HEAD
       <name>Serie</name>
    </variable>
    <variable>
@@ -25,5 +26,8 @@
       <id>1092726b-4fd6-4600-abb8-90cd77747395</id>
       <masked>false</masked>
       <name>Numero</name>
+=======
+      <name>NDoc</name>
+>>>>>>> origin/Maria
    </variable>
 </TestCaseEntity>

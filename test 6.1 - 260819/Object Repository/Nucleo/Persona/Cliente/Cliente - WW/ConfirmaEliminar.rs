@@ -4,6 +4,7 @@
    <name>ConfirmaEliminar</name>
    <tag></tag>
    <elementGuidId>6c7fa6d1-e569-492c-92a7-30bb092e774a</elementGuidId>
+<<<<<<< HEAD
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +19,12 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
+=======
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+>>>>>>> origin/Maria
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +38,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
+<<<<<<< HEAD
       <isSelected>false</isSelected>
+=======
+      <isSelected>true</isSelected>
+>>>>>>> origin/Maria
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -52,7 +63,11 @@
       <value>Aceptar</value>
    </webElementProperties>
    <webElementProperties>
+<<<<<<< HEAD
       <isSelected>false</isSelected>
+=======
+      <isSelected>true</isSelected>
+>>>>>>> origin/Maria
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>

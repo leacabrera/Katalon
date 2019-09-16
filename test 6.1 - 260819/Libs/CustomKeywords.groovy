@@ -3,6 +3,7 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
+<<<<<<< HEAD
 import com.kms.katalon.core.testobject.TestObject
 
 import com.kms.katalon.core.model.FailureHandling
@@ -35,3 +36,5 @@ def static "com.kms.katalon.keyword.testlink.TestlinkKeywords.updateResults"(
          , 	exception
          , 	results)
 }
+=======
+>>>>>>> origin/Maria

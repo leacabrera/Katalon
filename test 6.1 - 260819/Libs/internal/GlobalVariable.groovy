@@ -9,11 +9,14 @@ import com.kms.katalon.core.main.TestCaseMain
  */
 public class GlobalVariable {
      
+<<<<<<< HEAD
     /**
      * <p></p>
      */
     public static Object NOrden
      
+=======
+>>>>>>> origin/Maria
 
     static {
         try {
@@ -21,7 +24,10 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
+<<<<<<< HEAD
             NOrden = selectedVariables['NOrden']
+=======
+>>>>>>> origin/Maria
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

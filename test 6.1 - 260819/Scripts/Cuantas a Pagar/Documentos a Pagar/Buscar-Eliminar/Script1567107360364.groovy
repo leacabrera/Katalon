@@ -12,7 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+<<<<<<< HEAD
 import org.openqa.selenium.Keys as Keys
+=======
+>>>>>>> origin/Maria
 
 WebUI.delay(2)
 
@@ -22,6 +25,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Cuentas a Pagar/a_Documentos de compra'))
 
+<<<<<<< HEAD
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/input_Buscar'), WebUI.concatenate ([Serie,'-',Sucursal,'-',Numero]as String[], FailureHandling.STOP_ON_FAILURE))
@@ -37,4 +41,21 @@ WebUI.click(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerci
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/input_Anula formulario de impresin_ANULAR'))
+=======
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/input_Buscar'), NDoc)
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/a_PosicionWW'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Cuentas a Pagar/Documentos Compra/Documentos comerciales - WW/img_Interactiva_vDELETE_0001'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Cuentas a Pagar/Documentos Compra/Factura Servicio/Page_Eliminar documento/input_Anula formulario de impresin_ANULAR'))
+>>>>>>> origin/Maria
 
