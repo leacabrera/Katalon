@@ -3,7 +3,11 @@
    <description></description>
    <name>input_Esquema de distribucin</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>2553db1c-745a-4ebf-bd63-39bf6398fccc</elementGuidId>
+=======
+   <elementGuidId>a5b4ac16-1564-4def-9892-19f81559fcdb</elementGuidId>
+>>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -3,7 +3,11 @@
    <description></description>
    <name>a_100000049AAAAAAAAAAA</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>ee1b49e2-d9db-4481-b18a-29ab1e1b4ecc</elementGuidId>
+=======
+   <elementGuidId>8e86fc16-3078-4298-9bfe-f1afd6e84d90</elementGuidId>
+>>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

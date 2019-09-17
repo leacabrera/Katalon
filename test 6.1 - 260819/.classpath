@@ -214,16 +214,16 @@
 			<attribute name="javadoc_location" value="file:/C:/Users/lcabrera/Desktop/Katalon_Studio/configuration/resources/apidocs/com.kms.katalon.core.cucumber/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.core_3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.datatable_1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.datatable-dependencies_1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.expressions_5.0.19.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.gherkin_5.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.html_0.2.7.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.java_3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.tag-expressions_1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/io.cucumber.junit_3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Maria/Katalon_Studio_Windows_64-6.3.1/plugins/com.kms.katalon.core.webservice_1.0.0.201908120838.jar">
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.core_3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.datatable_1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.datatable-dependencies_1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.expressions_5.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.gherkin_5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.html_0.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.java_3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.tag-expressions_1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/io.cucumber.junit_3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lcabrera/Desktop/Katalon_Studio/plugins/com.kms.katalon.core.webservice_1.0.0.201908140948.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/C:/Users/lcabrera/Desktop/Katalon_Studio/configuration/resources/apidocs/com.kms.katalon.core.webservice/"/>
 		</attributes>

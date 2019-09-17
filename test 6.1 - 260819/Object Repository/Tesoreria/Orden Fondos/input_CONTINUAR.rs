@@ -3,7 +3,11 @@
    <description></description>
    <name>input_CONTINUAR</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>83dd74dc-9e05-40ce-b03d-2c39694f5b34</elementGuidId>
+=======
+   <elementGuidId>525c2ff7-011e-4a0a-b75c-772c79aa2310</elementGuidId>
+>>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -50,8 +50,14 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+<<<<<<< HEAD
       <id>0e4ab4a9-d4d2-4c45-806c-cbfb81f33132</id>
       <masked>false</masked>
       <name>NOrden</name>
+=======
+      <id>8c2c6a68-4c09-4269-9e8a-66bb3d9c610a</id>
+      <masked>false</masked>
+      <name>returnString</name>
+>>>>>>> Maria
    </variable>
 </TestCaseEntity>

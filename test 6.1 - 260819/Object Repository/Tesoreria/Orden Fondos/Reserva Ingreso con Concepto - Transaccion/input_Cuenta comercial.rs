@@ -3,7 +3,11 @@
    <description></description>
    <name>input_Cuenta comercial</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>bdcab475-4ad1-47d5-bca1-a43675555755</elementGuidId>
+=======
+   <elementGuidId>8542ed86-d67b-4cbc-a131-b7cf90b073ba</elementGuidId>
+>>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>XPATH</key>

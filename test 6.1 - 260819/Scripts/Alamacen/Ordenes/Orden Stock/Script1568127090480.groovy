@@ -12,7 +12,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+<<<<<<< HEAD
 import com.kms.katalon.core.logging.KeywordLogger
+=======
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+>>>>>>> Maria
 
 WebUI.delay(1)
 
@@ -38,7 +42,11 @@ WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('Alamacen/Ordenes/OrdenStock - Select transaccion/input__CONTINUAR'))
 
+<<<<<<< HEAD
 WebUI.waitForPageLoad(0)
+=======
+WebUI.delay(2)
+>>>>>>> Maria
 
 WebUI.selectOptionByValue(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/select_Sector'), Sector, false)
 
@@ -49,7 +57,11 @@ WebUI.click(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/select
 WebUI.setText(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/input_Esquema de distribucion'), EsquemaDistribucion, 
     FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 WebUI.waitForPageLoad(0)
+=======
+WebUI.delay(1)
+>>>>>>> Maria
 
 WebUI.setText(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/input_Producto'), Producto, FailureHandling.STOP_ON_FAILURE)
 
@@ -67,12 +79,24 @@ WebUI.click(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/select
 
 WebUI.selectOptionByValue(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/select_Sala KDC'), Sala, false)
 
+<<<<<<< HEAD
 WebUI.waitForPageLoad(0)
+=======
+WebUI.delay(1)
+>>>>>>> Maria
 
 WebUI.click(findTestObject('Alamacen/Ordenes/Orden de stock - Transaccion/input_ENTER'))
 
 NOrden = WebUI.getAttribute(findTestObject('Alamacen/Ordenes/Orden de stock - EM/a_Numero orden'), 'text')
 
 KeywordLogger log = new KeywordLogger()
+<<<<<<< HEAD
 log.logInfo(NOrden)
 
+=======
+
+log.logInfo(NOrden)
+
+return NOrden
+
+>>>>>>> Maria

@@ -3,7 +3,11 @@
    <description></description>
    <name>select_Concepto</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>8207655a-2cba-4a27-97f7-7cb5ab4e3a07</elementGuidId>
+=======
+   <elementGuidId>a3fb4951-6a99-4dca-805f-628beab57f57</elementGuidId>
+>>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,11 @@
    <description></description>
    <name>input_Cuenta financiera destino</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>cf6a26b2-4ef6-44aa-b1d5-dc2d0d616256</elementGuidId>
+=======
+   <elementGuidId>4d615d9f-5ec0-4b05-985f-c1d7817c7ea6</elementGuidId>
+>>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

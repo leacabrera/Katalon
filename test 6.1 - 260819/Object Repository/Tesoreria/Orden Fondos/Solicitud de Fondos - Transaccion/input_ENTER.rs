@@ -3,7 +3,11 @@
    <description></description>
    <name>input_ENTER</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>ba0bc40e-21fd-4d60-9dbd-5aa41074760e</elementGuidId>
+=======
+   <elementGuidId>91d47b96-0d02-48b2-8f1a-7ec9387b671d</elementGuidId>
+>>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

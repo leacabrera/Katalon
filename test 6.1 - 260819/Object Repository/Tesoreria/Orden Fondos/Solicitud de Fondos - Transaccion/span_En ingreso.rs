@@ -3,6 +3,7 @@
    <description></description>
    <name>span_En ingreso</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>63aa685d-e7df-47ee-ba91-f539dbaa31e9</elementGuidId>
    <selectorCollection>
       <entry>
@@ -13,6 +14,18 @@
          <key>BASIC</key>
          <value>//span[@class = 'ReadonlyAttribute_Trn' and @id = 'span_W0055W0051W0012ORDENFONDOSESTADO']</value>
       </entry>
+=======
+   <elementGuidId>9d9b88ec-6ea0-4f1c-82ce-84eba694fc06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'ReadonlyAttribute_Trn' and @id = 'span_W0055W0051W0012ORDENFONDOSESTADO']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='span_W0055W0051W0012ORDENFONDOSESTADO']</value>
+      </entry>
+>>>>>>> Maria
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

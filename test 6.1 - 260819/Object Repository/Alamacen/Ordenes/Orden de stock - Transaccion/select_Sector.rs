@@ -4,7 +4,21 @@
    <name>select_Sector</name>
    <tag></tag>
    <elementGuidId>2acc0ed1-19ca-46e5-b98f-5eb2507887d0</elementGuidId>
+<<<<<<< HEAD
    <selectorMethod>BASIC</selectorMethod>
+=======
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'W0030ORDENSTKLUGARFISICOID' and @name = 'W0030ORDENSTKLUGARFISICOID']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0030ORDENSTKLUGARFISICOID']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+>>>>>>> Maria
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +77,11 @@
       <value>;gx.evt.onblur(this,127);</value>
    </webElementProperties>
    <webElementProperties>
+<<<<<<< HEAD
       <isSelected>true</isSelected>
+=======
+      <isSelected>false</isSelected>
+>>>>>>> Maria
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -3,7 +3,11 @@
    <description></description>
    <name>span_En proceso de autorizacin</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>210b67ed-b26b-4b71-b326-482b602065b8</elementGuidId>
+=======
+   <elementGuidId>911b6592-3f67-42fe-9ba2-5818a0018d28</elementGuidId>
+>>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

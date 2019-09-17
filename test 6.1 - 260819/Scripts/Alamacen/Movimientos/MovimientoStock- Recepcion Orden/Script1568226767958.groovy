@@ -15,7 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('Alamacen/Ordenes/Orden Stock'), [('Sector') : Sector, ('Sala') : Sala, ('EsquemaDistribucion') : EsquemaDistribucion
+<<<<<<< HEAD
         , ('Producto') : Producto, ('Deposito') : Deposito, ('Cantidad') : Cantidad, ('NOrden') : NOrden], FailureHandling.STOP_ON_FAILURE)
+=======
+        , ('Producto') : Producto, ('Deposito') : Deposito, ('Cantidad') : Cantidad, ('NOrden') : ''], FailureHandling.STOP_ON_FAILURE)
+>>>>>>> Maria
 
 WebUI.delay(2)
 
@@ -45,11 +49,23 @@ WebUI.click(findTestObject('Alamacen/Movimientos/Movimiento Stock - Tipo TRN/inp
 
 WebUI.waitForPageLoad(0)
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), NOrden)
 
 KeywordLogger log = new KeywordLogger()
 
 log.logInfo(NOrden)
+=======
+String returnString = WebUI.callTestCase(findTestCase('Alamacen/Ordenes/Orden Stock'), [('NOrden') : ''], FailureHandling.CONTINUE_ON_FAILURE)
+
+println(returnString)
+
+WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), returnString)
+
+KeywordLogger log = new KeywordLogger()
+
+log.logInfo(returnString)
+>>>>>>> Maria
 
 not_run: WebUI.click(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/img_K2 BTools Generic Search Field_FILTERTOGGLE_COMBINED (1)'))
 
