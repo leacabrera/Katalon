@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*OBjetivo del caso: ingreso de datos en la transacción de orden de compra
- * Se verifica que la OC quede en proceso de ingreso
- * Archivo de datos en */
+/*Por el momento este caso ingresa un asiento de dos lineas, las cuentas asociadas no analizan por CC
+ * la primer linea es debito y la segunda es crédito
+ * Existe mas de un tipo de asiento que se puede seleccionar */
 WebUI.openBrowser('')
 
 WebUI.delay(5)
@@ -53,52 +53,52 @@ WebUI.click(findTestObject('Contabilidad/Asientocontable/AsientoSelectorTipoTran
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_Detalle de Observaciones_W0030CUENTACONTABLEID_0001'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_CuentaContable_0001'), 
     '1.1.1.1.01 - CAJA MONEDA NACIONAL')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_AD1 - ALBERTO DOMINGUEZ FONDO A RENDIR_W0030CUENTAAUXCONTABLEID_0001'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_CuentaAuxiliar_0001'), 
     '12345 - RUBEN ALVAREZ')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_AD1 - ALBERTO DOMINGUEZ FONDO A RENDIR_W0030ITEMPROYECTOID_0001'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_Proyecto_0001'), 
     '1')
 
-WebUI.selectOptionByValue(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/select_SeleccionaARSBOBBRLCLDCOPEURMXNPENUSDUYUVEB'), 
+WebUI.selectOptionByValue(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/select_AsientoDet_Moneda_001'), 
     '840', false)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_concat(No existe   Moneda  )_W0030ASIENTODETIMPORTEMONEDAORIGEN_0001'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_Importe_0001'), 
     '100')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_concat(No existe   Moneda  )_W0030CUENTACONTABLEID_0002'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_CuentaContable_0002'), 
     '1.1.1.1.01 - CAJA MONEDA NACIONAL')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_S_W0030CUENTAAUXCONTABLEID_0002'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_CuentaAuxiliar_0002'), 
     '12345 - RUBEN ALVAREZ')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/Page_Asiento contable/input_S_W0030ITEMPROYECTOID_0002'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_Proyecto_0002'), 
     '1')
 
 WebUI.delay(2)
 
-WebUI.selectOptionByIndex(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/Page_Asiento contable/select_DbitoCrdito'), 
+WebUI.selectOptionByIndex(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/select_AsientoDet_DebitoCredito_002'), 
     1)
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/Page_Asiento contable/select_SeleccionaARSBOBBRLCLDCOPEURMXNPENUSDUYUVEB'), 
+WebUI.selectOptionByValue(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/select_AsientoDet_Moneda_002'), 
     '840', false)
 
-WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/Page_Asiento contable/input_  _W0030ASIENTODETIMPORTEMONEDAORIGEN_0002'), 
+WebUI.setText(findTestObject('Contabilidad/Asientocontable/AsientoTransaccion/input_AsientoDet_Importe_0002'), 
     '100')
 
