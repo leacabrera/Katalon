@@ -3,15 +3,15 @@
    <description></description>
    <name>ConceptoIngreso</name>
    <tag></tag>
-   <elementGuidId>f01dd25f-b55a-401c-8b9e-2efa272491fa</elementGuidId>
+   <elementGuidId>8ed97d63-6380-4dba-859a-891068afca58</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@id = 'W0030ORDENFONDOSDETCONCEPTOINGEGRCO_0001' and @name = 'W0030ORDENFONDOSDETCONCEPTOINGEGRCO_0001' and (text() = 'SeleccionaIngresos por alquiler de mantelería' or . = 'SeleccionaIngresos por alquiler de mantelería')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//select[@id='W0030ORDENFONDOSDETCONCEPTOINGEGRCO_0001']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'W0030ORDENFONDOSDETCONCEPTOINGEGRCO_0001' and @name = 'W0030ORDENFONDOSDETCONCEPTOINGEGRCO_0001' and (text() = 'SeleccionaIngresos por alquiler de mantelería' or . = 'SeleccionaIngresos por alquiler de mantelería')]</value>
       </entry>
       <entry>
          <key>CSS</key>

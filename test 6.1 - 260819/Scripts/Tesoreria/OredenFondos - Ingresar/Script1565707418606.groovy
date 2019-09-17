@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Tesoreria/Orden Fondos/Orden de fondos-WW/nueva orde
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Conceptos/Orden de reserva ingreso con conceptos'))
+WebUI.click(findTestObject('Tesoreria/Orden Fondos/Tipos Ordenes de Fondo/Orden de reserva ingreso con conceptos'))
 
 WebUI.delay(2)
 
@@ -39,27 +39,30 @@ WebUI.click(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Conceptos/C
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Transaccion/input_cliente'), Cliente)
+WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - Transaccion/input_cliente'), Cliente)
 
-WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Transaccion/input_Cuenta comercial'), CuentaComercial)
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - Transaccion/input_Cuenta comercial'), CuentaComercial)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Transaccion/input_Esquema de distribucin'), EsqDistribucion)
+WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - Transaccion/input_Esquema de distribucin'), EsqDistribucion)
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Transaccion/ConceptoIngreso'), '500', false)
+WebUI.selectOptionByValue(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - Transaccion/ConceptoIngreso'), '500', 
+    false)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Transaccion/input_Importe'), Importe)
+WebUI.setText(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - Transaccion/input_Importe'), Importe)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - Transaccion/ConfirmarOF'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - Transaccion/ConfirmarOF'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Tesoreria/Orden Fondos/Orden de fondos - EM/CONFIRMAR(ProcAUT)'))
+WebUI.click(findTestObject('Tesoreria/Orden Fondos/Reserva Ingreso con Concepto - EM/CONFIRMAR(ProcAUT)'))
 

@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Menu/a_Compras'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Compras/PedidoCompra/a_Pedidos de compra'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 

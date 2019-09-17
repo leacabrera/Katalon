@@ -3,7 +3,7 @@
    <description></description>
    <name>CONTINUAR</name>
    <tag></tag>
-   <elementGuidId>cb8cf6b7-a53d-40bc-b307-ce1d0a96a7c3</elementGuidId>
+   <elementGuidId>d8942762-81f8-456b-b814-3e0556df7d1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

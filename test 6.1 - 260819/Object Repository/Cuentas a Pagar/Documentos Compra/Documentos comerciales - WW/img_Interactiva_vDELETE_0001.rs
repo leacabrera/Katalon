@@ -3,7 +3,7 @@
    <description></description>
    <name>img_Interactiva_vDELETE_0001</name>
    <tag></tag>
-   <elementGuidId>397dedfa-b834-4cbb-a093-afcea2bee9d2</elementGuidId>
+   <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -53,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>tooltip539810</value>
+      <value>tooltip277861</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

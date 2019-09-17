@@ -35,13 +35,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>faebf731-cdf0-43ad-a532-3633c2a002ad</guid>
+      <guid>dd19ceae-1264-463b-a4ac-bdbf8c15fc76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tesoreria/PagoSinOrden - Ingresar</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>2e397f15-1ca8-4d13-b622-4cd14a637d37</id>
+         <id>d621d0b2-9c7f-41c1-b341-04bee813d406</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -49,7 +49,7 @@
          <testDataId>Data Files/Tesoreria/PagoSinOrden</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>2e397f15-1ca8-4d13-b622-4cd14a637d37</testDataLinkId>
+         <testDataLinkId>d621d0b2-9c7f-41c1-b341-04bee813d406</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Proveedor</value>
          <variableId>598ebbcd-91c2-4de4-a633-f4db406fb571</variableId>
@@ -61,25 +61,25 @@
          <variableId>85da69e7-c586-45ec-aa26-86b41712ce88</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2e397f15-1ca8-4d13-b622-4cd14a637d37</testDataLinkId>
+         <testDataLinkId>d621d0b2-9c7f-41c1-b341-04bee813d406</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Moneda</value>
          <variableId>74da5629-2556-49fa-bc19-a4bf344c0a7c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2e397f15-1ca8-4d13-b622-4cd14a637d37</testDataLinkId>
+         <testDataLinkId>d621d0b2-9c7f-41c1-b341-04bee813d406</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EsquemaDistribucion</value>
          <variableId>3ddf238c-4d25-4d39-aed9-1501ae98d762</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2e397f15-1ca8-4d13-b622-4cd14a637d37</testDataLinkId>
+         <testDataLinkId>d621d0b2-9c7f-41c1-b341-04bee813d406</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Concepto</value>
          <variableId>38621f64-a390-46db-a051-93a9cfd50e98</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2e397f15-1ca8-4d13-b622-4cd14a637d37</testDataLinkId>
+         <testDataLinkId>d621d0b2-9c7f-41c1-b341-04bee813d406</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Importe</value>
          <variableId>86930d49-b444-4955-b9ed-7c0d40400372</variableId>
