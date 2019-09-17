@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OrdenFondos - Confirmar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e41341fd-64f0-4d59-8d15-d2e780235173</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2919b98e-1bb9-4872-977b-c80a8bc94d61</id>
+      <masked>false</masked>
+      <name>Cliente</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>455e4cef-720f-460b-b0ab-dbd675d064de</id>
+      <masked>false</masked>
+      <name>CuentaComercial</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf091233-628d-4fc3-8873-2108d14671af</id>
+      <masked>false</masked>
+      <name>EsquemaDistribucion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63be6e81-dcfe-4a8d-bd6f-a573876b6ff3</id>
+      <masked>false</masked>
+      <name>Importe</name>
+   </variable>
+</TestCaseEntity>

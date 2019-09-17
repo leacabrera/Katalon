@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>OrdenFondos - Confirmar</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>67145548-db10-498b-a268-20ffd7750197</testSuiteGuid>
+   <testCaseLink>
+      <guid>5654d239-57ea-4e7d-90d6-2bae571d9b89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6fd98cec-b398-4ca3-8e94-a564b39db358</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c0a2a3d8-2c81-46b3-a89e-52a67c48c0ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9be2680-1c6f-4945-9af8-95580567d998</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1166cc3-af4e-43aa-8e86-5e6da71697d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tesoreria/OrdenFondos - Confirmar</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>555bfc91-ebe9-4874-90ee-4c452c0d5c5d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Tesoreria/OrdenFondosCrear</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>555bfc91-ebe9-4874-90ee-4c452c0d5c5d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cliente</value>
+         <variableId>2919b98e-1bb9-4872-977b-c80a8bc94d61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>555bfc91-ebe9-4874-90ee-4c452c0d5c5d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CuentaComercial</value>
+         <variableId>455e4cef-720f-460b-b0ab-dbd675d064de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>555bfc91-ebe9-4874-90ee-4c452c0d5c5d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Esquema</value>
+         <variableId>bf091233-628d-4fc3-8873-2108d14671af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>555bfc91-ebe9-4874-90ee-4c452c0d5c5d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Importe</value>
+         <variableId>63be6e81-dcfe-4a8d-bd6f-a573876b6ff3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
