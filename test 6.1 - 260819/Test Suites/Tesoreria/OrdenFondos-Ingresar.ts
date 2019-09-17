@@ -43,43 +43,4 @@
          <variableId>c9be2680-1c6f-4945-9af8-95580567d998</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>a00cf5c4-ba9c-4210-a291-de9fb9bca75e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Tesoreria/OredenFondos - Ingresar</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>5efa9772-121d-469b-b0d7-52a1f44cb04f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Tesoreria/OrdenFondosCrear</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Cliente</value>
-         <variableId>a337eb02-f125-43d7-ba56-e25870875f62</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CuentaComercial</value>
-         <variableId>e1629e26-f1c2-44df-8872-2b635dea771a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Esquema</value>
-         <variableId>54bbdb7f-1ecc-4488-abe3-910276df5492</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>5efa9772-121d-469b-b0d7-52a1f44cb04f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Importe</value>
-         <variableId>776c2c8d-a54f-468c-88e9-a6c0c3b1b58f</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

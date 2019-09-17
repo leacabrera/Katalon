@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Importe</name>
    <tag></tag>
-   <elementGuidId>46a8fac4-8507-437b-a081-7d5e2a7a2a85</elementGuidId>
+   <elementGuidId>afe8d231-0cd0-43b9-ae6d-5a06e0e6710a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

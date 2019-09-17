@@ -4,6 +4,9 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Maria
 import com.kms.katalon.core.testobject.TestObject
 
 import com.kms.katalon.core.model.FailureHandling
@@ -36,5 +39,8 @@ def static "com.kms.katalon.keyword.testlink.TestlinkKeywords.updateResults"(
          , 	exception
          , 	results)
 }
+<<<<<<< HEAD
 =======
 >>>>>>> origin/Maria
+=======
+>>>>>>> Maria
