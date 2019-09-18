@@ -76,3 +76,4 @@ NOrden = WebUI.getAttribute(findTestObject('Alamacen/Ordenes/Orden de stock - EM
 KeywordLogger log = new KeywordLogger()
 log.logInfo(NOrden)
 
+return NOrden

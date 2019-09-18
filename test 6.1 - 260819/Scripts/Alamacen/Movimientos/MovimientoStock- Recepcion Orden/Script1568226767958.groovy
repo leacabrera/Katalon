@@ -45,11 +45,15 @@ WebUI.click(findTestObject('Alamacen/Movimientos/Movimiento Stock - Tipo TRN/inp
 
 WebUI.waitForPageLoad(0)
 
-WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), NOrden)
+String returnString = WebUI.callTestCase(findTestCase('Alamacen/Ordenes/Orden Stock'), [('NOrden') : ''], FailureHandling.STOP_ON_FAILURE)
+
+println(returnString)
+
+WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), returnString)
 
 KeywordLogger log = new KeywordLogger()
 
-log.logInfo(NOrden)
+log.logInfo(returnString)
 
 not_run: WebUI.click(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/img_K2 BTools Generic Search Field_FILTERTOGGLE_COMBINED (1)'))
 
