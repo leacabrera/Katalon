@@ -50,11 +50,7 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-<<<<<<< HEAD
       <id>d3bbeea7-68ac-4b2d-89dc-89d4e0a95cb6</id>
-=======
-      <id>02bcc8bc-2e32-4a1a-a2b0-0e1c81e86bfe</id>
->>>>>>> Maria
       <masked>false</masked>
       <name>NOrden</name>
    </variable>

@@ -34,7 +34,6 @@
          <variableId>c9be2680-1c6f-4945-9af8-95580567d998</variableId>
       </variableLink>
    </testCaseLink>
-<<<<<<< HEAD
    <testCaseLink>
       <guid>24fd9230-4ecc-4855-9e2a-85dc61dce685</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -166,6 +165,4 @@
          <variableId>92683bd4-4cef-4fce-bfc7-fccd1a124d1b</variableId>
       </variableLink>
    </testCaseLink>
-=======
->>>>>>> Maria
 </TestSuiteEntity>

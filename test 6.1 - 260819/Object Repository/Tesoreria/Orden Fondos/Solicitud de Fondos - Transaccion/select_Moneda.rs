@@ -3,11 +3,7 @@
    <description></description>
    <name>select_Moneda</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>fe108856-020e-4562-9054-f52f867dc603</elementGuidId>
-=======
-   <elementGuidId>07a8e5b4-5734-4757-b966-22c75bc31a68</elementGuidId>
->>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

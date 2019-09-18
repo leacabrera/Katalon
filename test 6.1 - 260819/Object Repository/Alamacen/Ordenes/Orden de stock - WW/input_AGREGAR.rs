@@ -4,21 +4,7 @@
    <name>input_AGREGAR</name>
    <tag></tag>
    <elementGuidId>65531995-9e80-46c2-8f9b-733277600d44</elementGuidId>
-<<<<<<< HEAD
    <selectorMethod>BASIC</selectorMethod>
-=======
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @name = 'AGREGAR' and @id = 'AGREGAR']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='AGREGAR']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
->>>>>>> Maria
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

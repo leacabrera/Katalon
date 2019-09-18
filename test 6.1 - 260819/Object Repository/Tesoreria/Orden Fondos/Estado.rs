@@ -3,7 +3,7 @@
    <description></description>
    <name>Estado</name>
    <tag></tag>
-   <elementGuidId>dc236ae8-d3fd-435d-ba3c-60ae2cfc319e</elementGuidId>
+   <elementGuidId>59611ecd-9b95-4ee5-9581-e19f7cfad6fd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

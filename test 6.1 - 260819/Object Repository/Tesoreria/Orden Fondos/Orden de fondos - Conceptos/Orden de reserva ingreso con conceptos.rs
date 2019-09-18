@@ -3,7 +3,7 @@
    <description></description>
    <name>Orden de reserva ingreso con conceptos</name>
    <tag></tag>
-   <elementGuidId>bed4a685-df09-4f17-9997-3d28f3d5709c</elementGuidId>
+   <elementGuidId>4358b4d7-6e2c-41cb-b4cc-e43f0b7f96f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -3,11 +3,7 @@
    <description></description>
    <name>Orden de reserva ingreso con conceptos</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>4358b4d7-6e2c-41cb-b4cc-e43f0b7f96f4</elementGuidId>
-=======
-   <elementGuidId>75681806-6282-4ee8-bd87-fbc6e240eba2</elementGuidId>
->>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>XPATH</key>

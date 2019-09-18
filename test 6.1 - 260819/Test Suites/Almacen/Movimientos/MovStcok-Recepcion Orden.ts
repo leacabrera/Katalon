@@ -9,11 +9,7 @@
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-<<<<<<< HEAD
    <testSuiteGuid>c5825f8d-8581-45e2-9453-752c2aff4443</testSuiteGuid>
-=======
-   <testSuiteGuid>c008f2bf-f79d-48d0-8bbd-ff9b64c9b17c</testSuiteGuid>
->>>>>>> Maria
    <testCaseLink>
       <guid>3dad1ad2-26df-4f7c-8029-6f1da9d4f7cf</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -92,11 +88,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-<<<<<<< HEAD
          <variableId>0e4ab4a9-d4d2-4c45-806c-cbfb81f33132</variableId>
-=======
-         <variableId>8c2c6a68-4c09-4269-9e8a-66bb3d9c610a</variableId>
->>>>>>> Maria
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

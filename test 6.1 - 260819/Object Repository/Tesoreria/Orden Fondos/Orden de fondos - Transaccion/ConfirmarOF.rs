@@ -3,7 +3,7 @@
    <description></description>
    <name>ConfirmarOF</name>
    <tag></tag>
-   <elementGuidId>ee2d649a-505e-4b74-9db4-c2466450ef87</elementGuidId>
+   <elementGuidId>b8df5492-f653-4176-bd48-7c8e6011e532</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

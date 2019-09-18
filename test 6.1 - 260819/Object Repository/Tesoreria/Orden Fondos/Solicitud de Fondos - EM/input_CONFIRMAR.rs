@@ -3,7 +3,7 @@
    <description></description>
    <name>input_CONFIRMAR</name>
    <tag></tag>
-   <elementGuidId>6ebc4e6b-f1ca-4633-87eb-3c56e51638a3</elementGuidId>
+   <elementGuidId>82f82b5e-65e8-4b29-8cf3-9f13f1739b99</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

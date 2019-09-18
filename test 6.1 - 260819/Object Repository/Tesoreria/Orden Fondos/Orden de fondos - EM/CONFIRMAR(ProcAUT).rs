@@ -3,7 +3,7 @@
    <description></description>
    <name>CONFIRMAR(ProcAUT)</name>
    <tag></tag>
-   <elementGuidId>48710bff-6807-4ff5-bbde-7196ea2e3378</elementGuidId>
+   <elementGuidId>9cfcbe0c-2b7c-45d2-85ba-dbff488e1b91</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

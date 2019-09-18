@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Esquema de distribucin</name>
    <tag></tag>
-   <elementGuidId>cf3f9cac-4d66-4011-a365-1c08c30bbf58</elementGuidId>
+   <elementGuidId>2553db1c-745a-4ebf-bd63-39bf6398fccc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

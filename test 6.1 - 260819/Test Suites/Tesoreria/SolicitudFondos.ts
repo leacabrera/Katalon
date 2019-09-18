@@ -9,11 +9,7 @@
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-<<<<<<< HEAD
    <testSuiteGuid>b49c3ba1-1589-4573-aab7-3116cfba458b</testSuiteGuid>
-=======
-   <testSuiteGuid>f77415cb-f908-40d5-a880-1c8c22d41664</testSuiteGuid>
->>>>>>> Maria
    <testCaseLink>
       <guid>845822ac-a24b-45a8-89f9-30647439bfce</guid>
       <isReuseDriver>false</isReuseDriver>

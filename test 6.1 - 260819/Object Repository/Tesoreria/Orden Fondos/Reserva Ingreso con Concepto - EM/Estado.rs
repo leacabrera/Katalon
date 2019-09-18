@@ -3,7 +3,6 @@
    <description></description>
    <name>Estado</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>59611ecd-9b95-4ee5-9581-e19f7cfad6fd</elementGuidId>
    <selectorCollection>
       <entry>
@@ -14,18 +13,6 @@
          <key>BASIC</key>
          <value>//span[@id = 'span_W0055W0051W0012ORDENFONDOSESTADO' and (text() = 'En ingreso' or . = 'En ingreso')]</value>
       </entry>
-=======
-   <elementGuidId>5ad92d67-4eb5-4f57-9555-68d3bf8efaa7</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[@id = 'span_W0055W0051W0012ORDENFONDOSESTADO' and (text() = 'En ingreso' or . = 'En ingreso')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[@id='span_W0055W0051W0012ORDENFONDOSESTADO']</value>
-      </entry>
->>>>>>> Maria
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

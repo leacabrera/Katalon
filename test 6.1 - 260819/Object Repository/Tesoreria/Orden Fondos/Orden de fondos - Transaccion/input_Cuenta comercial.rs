@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Cuenta comercial</name>
    <tag></tag>
-   <elementGuidId>cce99aee-1341-4357-a00c-b14ccbe19a10</elementGuidId>
+   <elementGuidId>bdcab475-4ad1-47d5-bca1-a43675555755</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

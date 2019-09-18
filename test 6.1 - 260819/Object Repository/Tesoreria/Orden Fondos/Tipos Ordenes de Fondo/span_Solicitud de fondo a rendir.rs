@@ -3,11 +3,7 @@
    <description></description>
    <name>span_Solicitud de fondo a rendir</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>de9dc3f2-0e8c-4c13-9c72-7ffb34325cb9</elementGuidId>
-=======
-   <elementGuidId>d72beb2f-8f6f-4667-ac19-56876c9afe3d</elementGuidId>
->>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

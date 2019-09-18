@@ -30,14 +30,10 @@ WebUI.waitForElementVisible(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/
 WebUI.setText(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/BuscarCliente'), CodigoCli)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 =======
 WebUI.waitForElementPresent(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/span_UY RUT 466656442808'), 1)
 >>>>>>> origin/Maria
-=======
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
->>>>>>> Maria
 
 WebUI.mouseOver(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/span_UY RUT 466656442808'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -46,14 +42,10 @@ WebUI.waitForElementVisible(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/
 WebUI.click(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/Eliminar'), FailureHandling.CONTINUE_ON_FAILURE)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.waitForElementPresent(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/ConfirmaEliminar'), 1)
 =======
 WebUI.waitForElementPresent(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/ConfirmaEliminar'), 0)
 >>>>>>> origin/Maria
-=======
-WebUI.waitForElementPresent(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/ConfirmaEliminar'), 1)
->>>>>>> Maria
 
 WebUI.click(findTestObject('Nucleo/Persona/Cliente/Cliente - WW/ConfirmaEliminar'), FailureHandling.CONTINUE_ON_FAILURE)
 

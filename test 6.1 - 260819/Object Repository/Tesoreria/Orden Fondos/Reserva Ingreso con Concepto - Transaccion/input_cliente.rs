@@ -3,11 +3,7 @@
    <description></description>
    <name>input_cliente</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>dedc27a1-f775-451a-963d-823b320b3e37</elementGuidId>
-=======
-   <elementGuidId>927da7cc-7541-48bd-8df3-ed01322c24f8</elementGuidId>
->>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>XPATH</key>

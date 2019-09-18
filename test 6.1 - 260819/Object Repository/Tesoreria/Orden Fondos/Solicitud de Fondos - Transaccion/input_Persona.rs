@@ -3,11 +3,7 @@
    <description></description>
    <name>input_Persona</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>d9f8ffb6-c0fc-4beb-a95f-deae93487e54</elementGuidId>
-=======
-   <elementGuidId>3034ddcf-2a80-4778-80e9-c8b3f07dc05f</elementGuidId>
->>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

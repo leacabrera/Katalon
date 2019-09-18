@@ -3,11 +3,7 @@
    <description></description>
    <name>input_Importe</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>46a8fac4-8507-437b-a081-7d5e2a7a2a85</elementGuidId>
-=======
-   <elementGuidId>8808e801-93c9-4302-bc40-066612eba232</elementGuidId>
->>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>XPATH</key>

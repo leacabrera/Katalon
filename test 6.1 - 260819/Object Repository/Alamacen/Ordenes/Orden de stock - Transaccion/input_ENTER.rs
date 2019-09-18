@@ -4,21 +4,7 @@
    <name>input_ENTER</name>
    <tag></tag>
    <elementGuidId>7f7f6f00-72a3-4ca5-ad17-f92d8d63d910</elementGuidId>
-<<<<<<< HEAD
    <selectorMethod>BASIC</selectorMethod>
-=======
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @name = 'W0030ENTER' and @id = 'W0030ENTER']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='W0030ENTER']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
->>>>>>> Maria
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

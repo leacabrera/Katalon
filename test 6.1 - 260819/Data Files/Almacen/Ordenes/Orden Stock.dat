@@ -8,17 +8,7 @@
    <dataFileGUID>9d8fe445-468f-4c19-8933-004d8016cfd4</dataFileGUID>
    <dataSourceUrl>\\gxcfs\k2b\AMASTERK2B\Test K2B\Automatizacion\Planilla de datos\6.1\OrdenStock.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-<<<<<<< HEAD
    <isInternalPath>false</isInternalPath>
-=======
-   <isInternalPath>true</isInternalPath>
-   <properties>
-      <entry>
-         <key>readAsString</key>
-         <value>true</value>
-      </entry>
-   </properties>
->>>>>>> Maria
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

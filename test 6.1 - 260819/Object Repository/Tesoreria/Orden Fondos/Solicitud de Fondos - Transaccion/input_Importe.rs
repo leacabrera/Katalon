@@ -3,11 +3,7 @@
    <description></description>
    <name>input_Importe</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>3b7e0c74-b0c0-42d6-bad4-ce454959e100</elementGuidId>
-=======
-   <elementGuidId>22d62ad9-6470-4de0-bf3c-ffb87f3e55b7</elementGuidId>
->>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

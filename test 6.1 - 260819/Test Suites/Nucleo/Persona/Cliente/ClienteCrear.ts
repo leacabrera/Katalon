@@ -34,4 +34,79 @@
          <variableId>c9be2680-1c6f-4945-9af8-95580567d998</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4893a223-1ee2-4614-854e-f7b612f9aac1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nucleo/Persona/Cliente/ClienteEliminar</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>01835d6b-219a-4eea-8138-d9d9fe414f0e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1d4207a-f83b-497d-88ad-103e75201da5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nucleo/Persona/Cliente/ClienteCrear</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Clientes/Cliente</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Codigo</value>
+         <variableId>e759b8bb-d10b-46b9-96b1-fdea5528e7d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TipoPersona</value>
+         <variableId>cd33882e-b09e-4298-a4fc-c0ce0ebf494d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pais </value>
+         <variableId>bc4ae2be-5719-4fbc-9cd1-d229722373d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TipoDoc</value>
+         <variableId>289ef04a-9b54-423a-89c1-12f59c3ad656</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Documento</value>
+         <variableId>8983a1fc-d2bb-4b76-81e9-f9f918c94b51</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NomComercial</value>
+         <variableId>dc8a5c63-ac2b-492a-8404-d4b1408c629e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NomLegal</value>
+         <variableId>894d740c-0a41-44ec-b983-c822f338db11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8a12d97-7a2e-457f-ab9a-9c376efed9dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AgenRet</value>
+         <variableId>2d952eb1-c7c3-4aed-ae43-758da3ca1d18</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

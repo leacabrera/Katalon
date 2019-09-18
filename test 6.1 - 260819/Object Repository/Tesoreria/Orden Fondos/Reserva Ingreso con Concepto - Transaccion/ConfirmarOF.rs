@@ -3,11 +3,7 @@
    <description></description>
    <name>ConfirmarOF</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>b8df5492-f653-4176-bd48-7c8e6011e532</elementGuidId>
-=======
-   <elementGuidId>52e939ba-89ae-4aa8-9fd0-336d3ed41314</elementGuidId>
->>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>BASIC</key>

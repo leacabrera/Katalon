@@ -32,7 +32,6 @@ WebUI.click(findTestObject('Tesoreria/Movimientos/Movimientos - WW/input_NUEVO')
 WebUI.delay(1)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - SelectTRN/span_Pago sin orden'))
 
 WebUI.delay(1)
@@ -44,85 +43,58 @@ WebUI.delay(1)
 WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_Persona'), 
 =======
 WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - SelectTRN/span_Pago sin orden'))
-=======
-WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - SelectTRN/span_Pago sin orden'))
->>>>>>> Maria
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - SelectTRN/input_No hay resultados_CONTINUAR'))
+WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - SelectTRN/input_No hay resultados_CONTINUAR'))
 
 WebUI.delay(1)
 
-<<<<<<< HEAD
 WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - Transaccion/input_Persona'), 
 >>>>>>> origin/Maria
-=======
-WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_Persona'), 
->>>>>>> Maria
     Proveedor)
 
 WebUI.delay(1)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.selectOptionByValue(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/select_Moneda'), 
 =======
 WebUI.selectOptionByValue(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - Transaccion/select_Moneda'), 
 >>>>>>> origin/Maria
-=======
-WebUI.selectOptionByValue(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/select_Moneda'), 
->>>>>>> Maria
     Moneda, false)
 
 WebUI.delay(1)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_Esquema de distribucion'), 
 =======
 WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - Transaccion/input_Esquema de distribucion'), 
 >>>>>>> origin/Maria
-=======
-WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_Esquema de distribucion'), 
->>>>>>> Maria
     EsquemaDistribucion)
 
 WebUI.delay(1)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.selectOptionByValue(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/select_ConceptoEI'), 
 =======
 WebUI.selectOptionByValue(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - Transaccion/select_ConceptoEI'), 
 >>>>>>> origin/Maria
-=======
-WebUI.selectOptionByValue(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/select_ConceptoEI'), 
->>>>>>> Maria
     Concepto, false)
 
 WebUI.delay(1)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_Importe'), 
 =======
 WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - Transaccion/input_Importe'), 
 >>>>>>> origin/Maria
-=======
-WebUI.setText(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_Importe'), 
->>>>>>> Maria
     Importe)
 
 WebUI.delay(1)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_ENTER'), FailureHandling.STOP_ON_FAILURE)
 =======
 WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden - Ingresar/PagoSinOrden - Transaccion/input_ENTER'), FailureHandling.STOP_ON_FAILURE)
 >>>>>>> origin/Maria
-=======
-WebUI.click(findTestObject('Tesoreria/Movimientos/PagoSinOrden/PagoSinOrden - Transaccion/input_ENTER'), FailureHandling.STOP_ON_FAILURE)
->>>>>>> Maria
 

@@ -4,14 +4,10 @@
    <name>img_Interactiva_vDELETE_0001</name>
    <tag></tag>
 <<<<<<< HEAD
-<<<<<<< HEAD
    <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
 =======
    <elementGuidId>397dedfa-b834-4cbb-a093-afcea2bee9d2</elementGuidId>
 >>>>>>> origin/Maria
-=======
-   <elementGuidId>becc7b96-0245-4cb8-b0f6-7436e2eb7e8a</elementGuidId>
->>>>>>> Maria
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -62,14 +58,10 @@
       <name>aria-describedby</name>
       <type>Main</type>
 <<<<<<< HEAD
-<<<<<<< HEAD
       <value>tooltip277861</value>
 =======
       <value>tooltip539810</value>
 >>>>>>> origin/Maria
-=======
-      <value>tooltip277861</value>
->>>>>>> Maria
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

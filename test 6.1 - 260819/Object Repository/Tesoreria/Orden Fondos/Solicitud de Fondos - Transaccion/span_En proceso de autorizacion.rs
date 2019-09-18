@@ -3,15 +3,15 @@
    <description></description>
    <name>span_En proceso de autorizacion</name>
    <tag></tag>
-   <elementGuidId>d8eab390-1c4d-489c-b311-bf88bb6e59a5</elementGuidId>
+   <elementGuidId>ea2ad7bf-f724-4808-8b13-43737a0b14ba</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'ReadonlyAttribute_Trn' and @id = 'span_W0055W0051W0012ORDENFONDOSESTADO']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//span[@id='span_W0055W0051W0012ORDENFONDOSESTADO']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'ReadonlyAttribute_Trn' and @id = 'span_W0055W0051W0012ORDENFONDOSESTADO']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

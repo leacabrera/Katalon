@@ -3,11 +3,7 @@
    <description></description>
    <name>span_En ingreso</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>ae1344e0-0215-4390-97cc-92d82c6bea5a</elementGuidId>
-=======
-   <elementGuidId>b9f320af-54a4-4af8-8590-95bd53bbfdbd</elementGuidId>
->>>>>>> Maria
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -3,13 +3,6 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Maria
-=======
->>>>>>> Stashed changes
 import com.kms.katalon.core.testobject.TestObject
 
 import com.kms.katalon.core.model.FailureHandling
@@ -42,11 +35,3 @@ def static "com.kms.katalon.keyword.testlink.TestlinkKeywords.updateResults"(
          , 	exception
          , 	results)
 }
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
->>>>>>> origin/Maria
-=======
->>>>>>> Maria
-=======
->>>>>>> Stashed changes
