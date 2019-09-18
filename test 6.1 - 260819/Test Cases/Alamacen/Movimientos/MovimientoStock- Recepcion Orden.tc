@@ -54,4 +54,11 @@
       <masked>false</masked>
       <name>NOrden</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e984d83f-3fbc-4d11-802c-a9c6a7db4690</id>
+      <masked>false</masked>
+      <name>NumOrden</name>
+   </variable>
 </TestCaseEntity>

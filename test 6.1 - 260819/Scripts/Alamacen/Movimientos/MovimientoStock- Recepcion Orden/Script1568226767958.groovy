@@ -14,8 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('Alamacen/Ordenes/Orden Stock'), [('Sector') : Sector, ('Sala') : Sala, ('EsquemaDistribucion') : EsquemaDistribucion
-        , ('Producto') : Producto, ('Deposito') : Deposito, ('Cantidad') : Cantidad, ('NOrden') : NOrden], FailureHandling.STOP_ON_FAILURE)
+String NumOrden = WebUI.callTestCase(findTestCase('Alamacen/Ordenes/Orden Stock'), [('Sector') : Sector, ('Sala') : Sala
+        , ('EsquemaDistribucion') : EsquemaDistribucion, ('Producto') : Producto, ('Deposito') : Deposito, ('Cantidad') : Cantidad
+        , ('NOrden') : NOrden], FailureHandling.STOP_ON_FAILURE)
+
+println(NumOrden)
 
 WebUI.delay(2)
 
@@ -45,7 +48,7 @@ WebUI.click(findTestObject('Alamacen/Movimientos/Movimiento Stock - Tipo TRN/inp
 
 WebUI.waitForPageLoad(0)
 
-WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), NOrden)
+WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), NumOrden)
 
 KeywordLogger log = new KeywordLogger()
 
