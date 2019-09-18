@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>58e61cb0-a128-467c-acf3-760276444bc7</dataFileGUID>
-<<<<<<< HEAD
+
    <dataSourceUrl>\\gxcfs\k2b\AMASTERK2B\Test K2B\Automatizacion\Planilla de datos\6.1\ProveedoresNew.xlsx</dataSourceUrl>
-=======
+
    <dataSourceUrl>../../Desktop/ProveedoresNew.xlsx</dataSourceUrl>
->>>>>>> origin/Maria
+
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
