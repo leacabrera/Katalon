@@ -1,57 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SolicitudRecursos</name>
+   <name>Pedido Compra - Referencia a Solicitud</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3f5f6968-7e8a-4c74-a3b8-c275467b4ba3</testCaseGuid>
+   <testCaseGuid>08bbaed6-72eb-401d-ae43-3eefa3eec831</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b83ac430-b01f-46e7-9e24-1f66da81026d</id>
+      <id>19a41dc6-1e5b-49f3-b518-51b9460a575a</id>
       <masked>false</masked>
-      <name>LugarFisico</name>
+      <name>variable</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fbec9f8c-ce1a-438b-b959-8227b102eb3c</id>
+      <id>a3f48221-fe07-45ed-b5b2-1ce67414c608</id>
       <masked>false</masked>
-      <name>Moneda</name>
+      <name>variable_0</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ec98631a-b468-432f-9cc5-31728305452a</id>
+      <id>90a70a53-f871-4a5c-aeb0-b747190276fb</id>
       <masked>false</masked>
-      <name>Sector</name>
+      <name>variable_1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ba13f765-7c98-4d15-b6cf-30156111359a</id>
+      <id>c19c6395-c0f3-44a3-b166-bb1e5d6dfdfb</id>
       <masked>false</masked>
-      <name>EsqDistribucion</name>
+      <name>variable_2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d8a53712-cd74-4834-8226-301ddc6df02d</id>
+      <id>c04bcf31-8b1f-46c3-8a9a-9aa8269c40e2</id>
       <masked>false</masked>
-      <name>Producto</name>
+      <name>variable_3</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>891deb97-c0ff-4bf2-a697-a8a53a4b792b</id>
+      <id>454b5b28-bd86-4229-be01-357a5644c371</id>
       <masked>false</masked>
-      <name>Cantidad</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>350e0326-cd3a-47aa-bff0-1dd5324ceb6b</id>
-      <masked>false</masked>
-      <name>Precio</name>
+      <name>variable_4</name>
    </variable>
 </TestCaseEntity>

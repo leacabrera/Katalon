@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SolicitudRecursos - Confirmar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69fc6dfb-c6c3-401f-97f0-d3299bd45ce2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6390deb-ed6f-48bc-8f41-f2cbe3e151b6</id>
+      <masked>false</masked>
+      <name>LugarFisico</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad09ad11-685b-4e70-ad5a-96df4090f8c9</id>
+      <masked>false</masked>
+      <name>Moneda</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d25c59ce-a5b1-40cf-be49-8e89ceeae504</id>
+      <masked>false</masked>
+      <name>Sector</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d927973-af6c-48fa-826c-d1dffbd7d483</id>
+      <masked>false</masked>
+      <name>EsqDistribucion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f2d0b73-3669-42fe-9ca9-f3988b4d8edd</id>
+      <masked>false</masked>
+      <name>Producto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>698d9bdd-41f9-42e5-8617-b30e355ff4bc</id>
+      <masked>false</masked>
+      <name>Cantidad</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>152c080b-8331-44bb-adec-257fa6fa905e</id>
+      <masked>false</masked>
+      <name>Precio</name>
+   </variable>
+</TestCaseEntity>

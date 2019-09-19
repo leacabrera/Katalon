@@ -45,10 +45,6 @@ WebUI.click(findTestObject('Alamacen/Movimientos/Movimiento Stock - Tipo TRN/inp
 
 WebUI.waitForPageLoad(0)
 
-String returnString = WebUI.callTestCase(findTestCase('Alamacen/Ordenes/Orden Stock'), [('NOrden') : ''], FailureHandling.STOP_ON_FAILURE)
-
-println(returnString)
-
 WebUI.setText(findTestObject('Alamacen/Movimientos/Movimiento Stock - Select OC/input_Buscar'), returnString)
 
 KeywordLogger log = new KeywordLogger()

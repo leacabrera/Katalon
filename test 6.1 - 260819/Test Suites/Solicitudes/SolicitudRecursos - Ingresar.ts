@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SolicitudRecursos</name>
+   <name>SolicitudRecursos - Ingresar</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -38,7 +38,7 @@
       <guid>88b00288-7d85-475b-9f07-237993d42261</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Solicitudes/SolicitudRecursos</testCaseId>
+      <testCaseId>Test Cases/Solicitudes/SolicitudRecursos - Ingresar</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fd3f7ee4-3c15-4901-98b0-9c7aad9b16be</id>
